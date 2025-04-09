@@ -1,0 +1,1626 @@
+# Chinese (Simplified, Hong Kong SAR China) translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-07 15:40-0300\n"
+"PO-Revision-Date: 2024-02-09 10:31-0300\n"
+"Last-Translator: \n"
+"Language-Team: zh_Hans_HK <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: app/routes/account/views.py:60 app/routes/account/views.py:263
+#: app/routes/ajax/views.py:74
+msgid "Whoa! That's too big, keep it shorter next time."
+msgstr "嘩！文章太長了，請寫短一點。"
+
+#: app/routes/account/views.py:63 app/routes/account/views.py:218
+msgid "Message sent!"
+msgstr "文章已發出！"
+
+#: app/routes/account/views.py:109
+msgid "Accepted friend request"
+msgstr "已接受的好友請求"
+
+#: app/routes/account/views.py:112
+msgid "Denied friend request"
+msgstr "已拒絕的好友請求"
+
+#: app/routes/account/views.py:173
+msgid "Successfully confirmed your email."
+msgstr "已成功驗證電郵。"
+
+#: app/routes/account/views.py:178
+msgid "Invalid verification code."
+msgstr "驗證碼錯誤。"
+
+#: app/routes/account/views.py:187
+msgid "Your email has been verified."
+msgstr "你的電郵已被確認。"
+
+#: app/routes/account/views.py:191
+msgid ""
+"Confirmation was resent successfully. If you don't see it in your inbox in 5 "
+"minutes, please check your spam folder"
+msgstr "驗證電郵已重新發送。如在五分鐘內沒有收到，請檢查垃圾郵箱"
+
+#: app/routes/account/views.py:271
+msgid "Something went wrong!"
+msgstr "有些地方出錯了！"
+
+#: app/routes/account/views.py:293
+msgid "Invite sent!"
+msgstr "邀請已寄出！"
+
+#: app/routes/account/views.py:308
+msgid "Thanks for proving you are a human!"
+msgstr "感謝你完成真人認證！"
+
+#: app/routes/account/settings/views.py:41 app/routes/account/views.py:313
+#: app/routes/auth/views.py:26
+msgid "Invalid captcha!"
+msgstr "驗證碼錯誤！"
+
+#: app/routes/account/views.py:400
+#, python-format
+msgid "%(count)s people were added!"
+msgstr "已追加%(count)s人！"
+
+#: app/routes/account/views.py:401
+msgid ""
+"No people were found! But you can invite them clicking on \"Find & Invite\""
+msgstr "找不到這個人！但你可以在【尋找和邀請】裡邀請他們"
+
+#: app/routes/account/views.py:404
+msgid "Invalid contact file."
+msgstr "聯絡人檔案錯誤。"
+
+#: app/routes/account/settings/views.py:39
+msgid "Goodbye!"
+msgstr "再見！"
+
+#: app/routes/account/settings/views.py:96 app/routes/auth/views.py:32
+msgid "Email or username is already used by another account."
+msgstr "此電郵或用戶名已被使用。"
+
+#: app/routes/account/settings/views.py:99
+#: app/routes/account/settings/views.py:135
+msgid "Thanks, your settings have been saved."
+msgstr "設定已被保存。"
+
+#: app/routes/account/settings/views.py:150
+msgid "You didn't provide a picture."
+msgstr "沒有提供照片。"
+
+#: app/routes/account/settings/views.py:154
+msgid "Picture deleted."
+msgstr "個人檔案照片已刪除。"
+
+#: app/routes/account/settings/views.py:169
+msgid "That's a nice picture!"
+msgstr "這張照片不錯！"
+
+#: app/routes/account/settings/views.py:183 app/routes/auth/views.py:57
+msgid "Invalid password!"
+msgstr "密碼錯誤！"
+
+#: app/routes/account/settings/views.py:192
+msgid "Changed password!"
+msgstr "密碼已更改！"
+
+#: app/routes/account/settings/views.py:208
+msgid "Done!"
+msgstr "完成！"
+
+#: app/routes/account/settings/views.py:227
+msgid "You picked a color so transparent, even Casper is jealous!"
+msgstr "你挑的顏色真通透！"
+
+#: app/routes/account/settings/views.py:227
+msgid "Changes saved successfully!"
+msgstr "變更已保存！"
+
+#: app/routes/account/settings/templates/settings.html:40
+#: app/routes/account/settings/templates/settings.html:349
+msgid "Account"
+msgstr "帳號"
+
+#: app/routes/account/settings/templates/settings.html:43
+#: app/routes/account/settings/templates/settings.html:365 app/utils/forms.py:227
+msgid "Password"
+msgstr "密碼"
+
+#: app/routes/account/settings/templates/settings.html:46
+msgid "Devices"
+msgstr "設備"
+
+#: app/routes/account/settings/templates/settings.html:49 app/utils/forms.py:158
+#: app/utils/forms.py:179
+msgid "Picture"
+msgstr "照片"
+
+#: app/routes/account/settings/templates/settings.html:52
+#: app/routes/account/settings/templates/settings.html:393
+msgid "Design"
+msgstr "設計"
+
+#: app/routes/account/settings/templates/settings.html:76
+msgid "Your URL:"
+msgstr "你的個人檔案網址："
+
+#: app/routes/account/settings/templates/settings.html:77
+msgid "No spaces, please."
+msgstr "請不要輸入空格。"
+
+#: app/routes/account/settings/templates/settings.html:102
+msgid "Have a SpaceHey or blog? Put the address here."
+msgstr "有個個人網頁或者博客？把它寫進來。"
+
+#: app/routes/account/settings/templates/settings.html:113
+msgid "About yourself in fewer than 160 characters."
+msgstr "用少於160個字來介紹自己。"
+
+#: app/routes/account/settings/templates/settings.html:122
+msgid "Where in the world are you?"
+msgstr "你在哪裡？"
+
+#: app/routes/account/settings/templates/settings.html:132
+msgid ""
+"Make sure you select the right language, otherwise your updates will be shown "
+"on the wrong timeline."
+msgstr "請選擇合適的語言，否則你的推文會被顯示在錯誤的時間線上。"
+
+#: app/routes/account/settings/templates/settings.html:141
+msgid ""
+"This allows you to see updates from everyone, independent if the update is in a "
+"different language than yours."
+msgstr "此選項可讓你看到全部的推文，不受推文語言影響。"
+
+#: app/routes/account/settings/templates/settings.html:151
+#: app/routes/auth/templates/create.html:93
+msgid ""
+"Only let people whom I accept as friends read my updates. If this is checked, "
+"you WILL NOT be on the public timeline"
+msgstr "只讓已接受為好友的人看到自己的推文。如選取此項，你將不會出現在公開時間線"
+
+#: app/routes/account/settings/templates/settings.html:160
+msgid ""
+"This proxies unsafe background image URLs and embeds so your IP address won't "
+"be leaked. If you have issues, you can disable this option."
+msgstr "你的IP地址不會被洩露。如有任何問題，可剔除此選項。"
+
+#: app/routes/account/settings/templates/settings.html:172
+msgid "Delete your account."
+msgstr "刪除帳號。"
+
+#: app/routes/account/settings/templates/settings.html:230
+#: app/routes/auth/templates/create.html:82
+msgid "Minimum size 48x48 pixels (jpg, gif, png)"
+msgstr "最小尺寸48x48像素（JPG, GIF, PNG）"
+
+#: app/routes/account/settings/templates/settings.html:244
+msgid "Design Your Owler"
+msgstr "設計你的Owler"
+
+#: app/routes/account/settings/templates/settings.html:245
+msgid ""
+"Below are the current design settings for your Owler account. You can change, "
+"preview, save, or restore to factory default settings any time. If you prefer, "
+"you can leave stuff you don't want to change in blank."
+msgstr ""
+"下列設定是你的Owler帳號現行的設計設定。你可以隨時更改，預覽，儲存，或重設回初期"
+"設定。如有需要，可以留空不需要更改的選項。"
+
+#: app/routes/account/settings/templates/settings.html:284
+msgid "Reset background"
+msgstr "重設背景"
+
+#: app/routes/account/settings/templates/settings.html:303
+msgid "Connected devices"
+msgstr "已連結設備"
+
+#: app/routes/account/settings/templates/settings.html:305
+msgid ""
+"Here you can access all external applications and devices connected to this "
+"account."
+msgstr "在這裡可以看到所有連結上此帳號的外部應用和設備。"
+
+#: app/routes/account/settings/templates/settings.html:310
+msgid "Device"
+msgstr "設備"
+
+#: app/routes/account/settings/templates/settings.html:311
+msgid "Token"
+msgstr "密鑰"
+
+#: app/routes/account/settings/templates/settings.html:312
+msgid "Actions"
+msgstr "動作"
+
+#: app/routes/account/settings/templates/settings.html:330
+msgid "No external applications or devices are connected to this account."
+msgstr "暫無應用或設備連結至此。"
+
+#: app/routes/account/settings/templates/settings.html:352
+msgid ""
+"From here you can change your basic account info, fill in your profile data, "
+"and set whether you want to be private or public"
+msgstr "在這裏你能更改你的基本帳號信息， 輸入你的個人資料，和設定隱藏或公開"
+
+#: app/routes/account/settings/templates/settings.html:354
+#: app/routes/account/settings/templates/settings.html:381
+msgid "Tips"
+msgstr "提示"
+
+#: app/routes/account/settings/templates/settings.html:356
+msgid ""
+"Filling in your profile information will help people find you on Owler. For "
+"example, you'll be more likely to turn up in an Owler search if you've added "
+"your location or your real name"
+msgstr ""
+"輸入個人資料有助於他人於Owler找到你。比方說，加入了真實姓名和地方後在Owler搜尋會"
+"有意想不到的事"
+
+#: app/routes/account/settings/templates/settings.html:358
+msgid ""
+"Change your Owler username anytime without affecting your existing updates, "
+"@replies, direct messages, or other data. After changing it, make sure to let "
+"your followers know, so you'll continue receiving all of your messages with "
+"your new username."
+msgstr ""
+"更改Owler用戶名不會影響現有的推文，回覆，私密信息，或其他資料。更改後，應即時讓"
+"追蹤者了解，讓他們可以用新的名義繼續向你發送信息。"
+
+#: app/routes/account/settings/templates/settings.html:360
+msgid ""
+"Protect your profile to keep your Owler updates private. Approve who can follow "
+"you and keep your updates out of search results"
+msgstr "加密個人檔案可保護你的Owler推文。篩選追蹤你的人和把你的推文剔出搜尋結果"
+
+#: app/routes/account/settings/templates/settings.html:369
+msgid ""
+"Be tricky! Your password should be at least 6 characters and not a dictionary "
+"word or common name. Change your password on occasion."
+msgstr ""
+"盡量設置複雜密碼！你的密碼必須為6個字以上且非字典詞彙或一般名字。請定時更改密"
+"碼。"
+
+#: app/routes/account/settings/templates/settings.html:370
+msgid "Note:"
+msgstr "注意："
+
+#: app/routes/account/settings/templates/settings.html:370
+msgid ""
+"If you have trusted a third-party Owler service or software with your password, "
+"and you change it here, you'll need to reauthenticate to make that software "
+"work. Never enter your password in a third-party service or software that looks "
+"suspicious."
+msgstr ""
+"如果你利用密碼登入並保存在第三方的服務或軟件，更改後需要重新認證。請勿在可疑的第"
+"三方服務或軟件輸入密碼。"
+
+#: app/routes/account/settings/templates/settings.html:378
+msgid ""
+"Your Owler profile pic helps instantly identify you to those following you and "
+"tells those who aren't more about you."
+msgstr "你的Owler個人檔案照片讓追蹤你的用戶可以更快識別你。"
+
+#: app/routes/account/settings/templates/settings.html:383
+msgid ""
+"A real picture of yourself is encouraged as it adds personableness to your "
+"updates."
+msgstr "建議使用真人照片，可增加推文風格。"
+
+#: app/routes/account/settings/templates/settings.html:384
+msgid ""
+"People can see the full-sized version when they click on your picture from your "
+"profile page. So don't upload a tiny one - we'll create the thumbnail for you."
+msgstr ""
+"用戶可在你的個人檔案頁面看到全尺寸的個人檔案照片。所以請不要上傳過小的圖片—我們"
+"會為你生成縮略圖。"
+
+#: app/routes/account/settings/templates/settings.html:386
+msgid ""
+"If you want to control exactly how it will be cropped, upload a square picture."
+msgstr "如希望控制裁剪尺寸，可上傳一張正方形圖片。"
+
+#: app/routes/account/settings/templates/settings.html:387
+msgid ""
+"Nudity or obscene images are not allowed. Be sure you have permission to use "
+"the photo you're using (And don't use copyrighted images without proper "
+"authorization). Respect the rights of content creators and maintain a positive "
+"and respectful online environment."
+msgstr ""
+"不可使用裸露或淫褻圖片。請確保你使用的照片已得到許可（並請勿使用未經許可的版權照"
+"片）。請尊重創作者，建立一個良好的網絡環境。"
+
+#: app/routes/account/settings/templates/settings.html:396
+msgid ""
+"Customize the way Owler looks for you and how your profile looks to others. "
+"Customize it with your own color scheme and background image."
+msgstr "自定義你的Owler設計和個人檔案頁面。可使用自定義的顏色組合和背景圖片。"
+
+#: app/routes/account/settings/templates/settings.html:400
+msgid ""
+"Owler has two themes: light and dark, so customize your design to look good in "
+"both."
+msgstr "Owler有兩套主題：淺色和深色，自訂一個同時適合兩者的設計。"
+
+#: app/routes/account/settings/templates/settings.html:401
+msgid ""
+"You can see what your changes look like instantly, but they're not saved until "
+"you click \"Save Changes.\""
+msgstr "你可以即時看到你的設計，但在按下“保存變更”之前都不會保存。"
+
+#: app/routes/account/settings/templates/settings.html:404
+msgid "If you want to start over, click \"Restore to default\""
+msgstr "如果需要重新開始設計，請按“恢復到初期設定”"
+
+#: app/routes/account/templates/badges.html:17
+msgid "Let the world know (on your homepage)!"
+msgstr "（在你的個人網站上）讓大家知道你！"
+
+#: app/routes/account/templates/badges.html:20
+#, python-format
+msgid ""
+"To use this feature, you need to make your profile public in account <a "
+"href=\"%(link)s\">settings</a>."
+msgstr "如需要使用此功能，請在 <a href=\"%(link)s\">帳號設定</a>裡設置公開帳號。"
+
+#: app/routes/account/templates/badges.html:22
+msgid "Flash Badge"
+msgstr "Flash版組件"
+
+#: app/routes/account/templates/badges.html:23
+msgid ""
+"Choose a color and paste the code into your MySpace, Blogger, LiveJournal, "
+"Xanga, whatever!"
+msgstr "選一個顏色，然後把它貼到你的個人網站，部落格，或者其他網站！"
+
+#: app/routes/account/templates/badges.html:42
+msgid "JavaScript Badges"
+msgstr "JavaScript版組件"
+
+#: app/routes/account/templates/badges.html:43
+msgid ""
+"Want something simpler? Want to style your status through CSS? Copy this "
+"JavaScript version instead:"
+msgstr "希望來個簡單點的？希望用CSS自訂組件設計？請改用JavaScript版本："
+
+#: app/routes/account/templates/direct_messages.html:17 app/utils/forms.py:72
+#: app/utils/forms.py:270
+msgid "Send"
+msgstr "向"
+
+#: app/routes/account/templates/direct_messages.html:17
+msgid "a message."
+msgstr "發送信息。"
+
+#: app/routes/account/templates/direct_messages.html:20
+#: app/routes/account/templates/home.html:20
+msgid "Characters available: "
+msgstr "剩餘："
+
+#: app/routes/account/templates/direct_messages.html:42
+msgid "Sent"
+msgstr "已發送"
+
+#: app/routes/account/templates/direct_messages.html:45
+msgid "Inbox"
+msgstr "收件箱"
+
+#: app/routes/account/templates/direct_messages.html:50
+msgid "Messages Sent Directly To You"
+msgstr "你收到的消息"
+
+#: app/routes/account/templates/direct_messages.html:50
+msgid "Messages Sent Only To You"
+msgstr "你發送的消息"
+
+#: app/routes/account/templates/direct_messages.html:102
+#, fuzzy, python-format
+msgid "to %(screen_name)s"
+msgstr "至%(screen_name)s"
+
+#: app/routes/account/templates/direct_messages.html:118
+#: app/routes/mobile/templates/mobile/timeline.html:19
+#: app/templates/widgets/timeline.html:54
+msgid "Newer"
+msgstr "上一版"
+
+#: app/routes/account/templates/direct_messages.html:124
+#: app/routes/account/templates/search_users.html:91
+#: app/routes/mobile/templates/mobile/timeline.html:22
+#: app/templates/widgets/timeline.html:60
+msgid "Older"
+msgstr "下一版"
+
+#: app/routes/account/templates/find_folks.html:18
+msgid "Find Folks from Your Gmail Address Book"
+msgstr "從你的Gmail聯絡人尋找好友"
+
+#: app/routes/account/templates/find_folks.html:19
+msgid ""
+"Follow these instructions to add your friends from your Gmail address book."
+msgstr "透過以下步驟從Gmail聯絡人導入好友。"
+
+#: app/routes/account/templates/find_folks.html:21
+msgid "Sign in to your email."
+msgstr "登入你的電郵。"
+
+#: app/routes/account/templates/find_folks.html:22
+msgid "Go to <b>Google Contacts</b>."
+msgstr "進入<b>Google聯絡人</b>。"
+
+#: app/routes/account/templates/find_folks.html:23
+msgid "Select the contacts you want to export."
+msgstr "選擇希望輸出的聯絡人。"
+
+#: app/routes/account/templates/find_folks.html:24
+msgid "On the menu on the left, select <b>Export</b>."
+msgstr "從上方選單，選擇<b>輸出</b>。"
+
+#: app/routes/account/templates/find_folks.html:25
+msgid "At the bottom of the popup, select <b>Export</b>."
+msgstr "在彈出泡泡下方，選擇<b>輸出</b>。"
+
+#: app/routes/account/templates/find_folks.html:26
+msgid "Upload the contacts file below:"
+msgstr "在下面上傳你的聯繫人檔案："
+
+#: app/routes/account/templates/friend_requests.html:7
+msgid "Friend Requests"
+msgstr "好友請求"
+
+#: app/routes/account/templates/friend_requests.html:28
+msgid "accept"
+msgstr "接受"
+
+#: app/routes/account/templates/friend_requests.html:29
+msgid "deny"
+msgstr "拒絕"
+
+#: app/routes/account/templates/friend_requests.html:38
+msgid "No friend requests found"
+msgstr "沒有好友請求"
+
+#: app/routes/account/templates/home.html:16
+#, python-format
+msgid "Replying to %(screen_name)s"
+msgstr "回覆%(screen_name)s"
+
+#: app/routes/account/templates/home.html:17
+#: app/routes/mobile/templates/mobile/home.html:7 app/utils/forms.py:240
+#: app/utils/forms.py:245
+msgid "What are you doing?"
+msgstr "你在做什麼？"
+
+#: app/routes/account/templates/home.html:43
+msgid "Your account is being restricted"
+msgstr "你的帳號正受限制"
+
+#: app/routes/account/templates/home.html:48
+#, python-format
+msgid ""
+"Please confirm your account — a confirmation message was sent to %(email)s<br>\n"
+"    <small>Until you confirm, you will have limited access to certain features "
+"on Owler.<br>\n"
+"        <a href=\"%(resend_email_url)s\">Resend confirmation</a> - <a\n"
+"                href=\"%(settings_url)s\">Change email address</a></small>"
+msgstr ""
+"請驗證你的帳號—一封驗證電郵已經傳送到%(email)s<br>\n"
+"    <small>在完成驗證前，你可以使用部分特定的Owler功能。<br>\n"
+"        <a href=\"%(resend_email_url)s\">重新發送驗證電郵</a> - <a\n"
+"                href=\"%(settings_url)s\">更改電郵地址</a></small>"
+
+#: app/routes/account/templates/home.html:56
+msgid "Archive"
+msgstr "存檔"
+
+#: app/routes/account/templates/home.html:59
+msgid "Replies"
+msgstr "回覆"
+
+#: app/routes/account/templates/home.html:62
+#: app/routes/account/templates/home.html:65
+msgid "Recent"
+msgstr "最近"
+
+#: app/routes/account/templates/home.html:62
+#: app/routes/profile/templates/profile.html:54
+#: app/routes/profile/templates/profile.html:195
+msgid "Following"
+msgstr "正在追蹤"
+
+#: app/routes/account/templates/home.html:70
+msgid "Your Updates"
+msgstr "你的推文"
+
+#: app/routes/account/templates/home.html:71
+msgid ""
+"Updates Replying To\n"
+"        You"
+msgstr "你的回覆"
+
+#: app/routes/account/templates/home.html:73
+#, python-format
+msgid "What You And Your <a href=\"%(url)s\">Friends</a> Are Doing"
+msgstr "你和你的<a href=\"%(url)s\">朋友</a>"
+
+#: app/routes/account/templates/home.html:74
+#, python-format
+msgid ""
+"What You And <a\n"
+"        href=\"%(url)s\">They</a> Are Doing"
+msgstr "你和<a href=\"%(url)s\">他們</a>"
+
+#: app/routes/account/templates/invitations.html:8
+msgid "Find and Invite More People!"
+msgstr "尋找和邀請用戶！"
+
+#: app/routes/account/templates/invitations.html:9
+#, python-format
+msgid ""
+"Owler is better when other people are involved. <a href=\"%(url)s\">Check the\n"
+"        status of previous invitations.</a>"
+msgstr "Owler需要更多人來活躍。<a href=\"%(url)s\">查看過往邀請</a>"
+
+#: app/routes/account/templates/invitations.html:18
+msgid "<b>Find</b> Folks from Your Gmail Address Book"
+msgstr "透過Gmail聯絡人<b>尋找</b>好友"
+
+#: app/routes/account/templates/invitations.html:27
+msgid "<b>Invite</b> People to Join Owler via Email"
+msgstr "透過電郵<b>邀請</b>用戶加入"
+
+#: app/routes/account/templates/invitations.html:36
+msgid "<b>Search</b> for People Already on Owler"
+msgstr "<b>尋找</b>已經在Owler的用戶"
+
+#: app/routes/account/templates/invitations.html:52
+#: app/routes/account/templates/search_users.html:20
+msgid "search"
+msgstr "搜尋"
+
+#: app/routes/account/templates/previous_invitations.html:3
+msgid "Owler"
+msgstr "Owler"
+
+#: app/routes/account/templates/previous_invitations.html:9
+msgid "Your Previous Invitations"
+msgstr "你的過往邀請"
+
+#: app/routes/account/templates/previous_invitations.html:10
+#, python-format
+msgid ""
+"No invitations found, but you can invite people <a href=\"%(url)s\">clicking "
+"here</a>"
+msgstr "沒有邀請，你可以 <a href=\"%(url)s\">點擊這裡</a>邀請用戶"
+
+#: app/routes/account/templates/search_users.html:10
+#, python-format
+msgid "Results %(page)s - %(total_pages)s of %(total_users)s for \"%(keyword)s\""
+msgstr "“%(keyword)s”的%(total_users)s個搜尋結果 %(total_pages)s頁內的%(page)s頁"
+
+#: app/routes/account/templates/search_users.html:10
+msgid "Who are you looking for?"
+msgstr "你在找什麼？"
+
+#: app/routes/account/templates/search_users.html:20
+msgid "Your search term is highlighted below."
+msgstr ""
+
+#: app/routes/account/templates/search_users.html:20
+msgid "Examples: John, bob@test.com, San Francisco, user123."
+msgstr ""
+
+#: app/routes/account/templates/search_users.html:54
+#: app/routes/profile/templates/profile.html:88
+msgid "Notifications"
+msgstr "通知"
+
+#: app/routes/account/templates/search_users.html:58
+#: app/routes/profile/templates/profile.html:94
+msgid "On"
+msgstr "開"
+
+#: app/routes/account/templates/search_users.html:63
+#: app/routes/profile/templates/profile.html:99
+msgid "Off"
+msgstr "關"
+
+#: app/routes/account/templates/search_users.html:76
+msgid "Name"
+msgstr "名字"
+
+#: app/routes/account/templates/search_users.html:78 app/utils/forms.py:206
+msgid "Location"
+msgstr "地點"
+
+#: app/routes/account/templates/search_users.html:79 app/utils/forms.py:205
+msgid "Bio"
+msgstr "介紹"
+
+#: app/routes/account/templates/search_users.html:81
+msgid "Recently"
+msgstr "最近推文"
+
+#: app/routes/account/templates/search_users.html:81
+#: app/routes/mobile/templates/mobile/profile.html:14
+#: app/routes/profile/templates/profile.html:115
+msgid "My updates are protected."
+msgstr "推文受保護。"
+
+#: app/routes/account/templates/search_users.html:81
+#: app/routes/mobile/templates/mobile/profile.html:14
+#: app/routes/profile/templates/profile.html:138
+msgid "Haven't updated yet!"
+msgstr "還沒有發文！"
+
+#: app/routes/account/templates/search_users.html:90
+#, python-format
+msgid "page %(page)s of %(total_pages)s"
+msgstr "%(total_pages)s頁內的%(page)s頁"
+
+#: app/routes/account/templates/search_users.html:91
+msgid "Next"
+msgstr "下一頁"
+
+#: app/routes/account/templates/send_message.html:8
+#, python-format
+msgid "Send <a href=\"%(url)s\">%(name)s</a> a message."
+msgstr "向<a href=\"%(url)s\">%(name)s</a>發送信息。"
+
+#: app/routes/account/templates/widgets/welcome.html:9
+#, python-format
+msgid "Welcome to Owler, %(name)s!"
+msgstr "%(name)s，歡迎來到Owler！"
+
+#: app/routes/account/templates/widgets/welcome.html:14
+msgid "Tell us what <b>you're</b> doing in the box above"
+msgstr "在上面框框裡告訴我們 <b>你在</b> 做什麼"
+
+#: app/routes/account/templates/widgets/welcome.html:19
+#, python-format
+msgid ""
+"<a href='%(url)s'>Invite some friends</a> and follow what <b>they're</b> doing"
+msgstr "<a href='%(url)s'>邀請一些朋友</a>來看看<b>他們</b>在做什麼"
+
+#: app/routes/account/templates/widgets/welcome.html:24
+#, python-format
+msgid ""
+"<a href='%(url)s'>Turn on your mobile phone</a> to update your friends on the go"
+msgstr "<a href='%(url)s'>加入你的移動設備</a>來隨時隨地發送推文"
+
+#: app/routes/account/templates/widgets/side/user.html:2
+#, python-format
+msgid "Welcome, <a href='%(url)s'><strong>%(screen_name)s"
+msgstr "你好， <a href='%(url)s'><strong>%(screen_name)s"
+
+#: app/routes/account/templates/widgets/side/user.html:5
+#, python-format
+msgid ""
+"Awesome new feature!<br>\n"
+"        <a href=\"%(url)s\">Search Gmail Contacts</a>\n"
+"        <br>and follow more folks.\n"
+"        </div>"
+msgstr ""
+"注目新功能！<br>\n"
+"        <a href=\"%(url)s\">搜尋Gmail聯絡人</a>\n"
+"        <br>並追蹤更多朋友\n"
+"        </div>"
+
+#: app/routes/account/templates/widgets/side/user.html:13
+#, python-format
+msgid "<b>Currently:</b> <span id='about_text'>%(recently)s</span>"
+msgstr "<b>最近推文：</b> <span id='about_text'>%(recently)s</span>"
+
+#: app/routes/account/templates/widgets/side/user.html:19
+#, python-format
+msgid "<a href='%(url)s'>Friend Requests:</a> %(count)s"
+msgstr "<a href='%(url)s'>好友請求：</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:25
+#, python-format
+msgid "<a href='%(url)s'>Following:</a> %(count)s"
+msgstr "<a href='%(url)s'>追蹤中：</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:28
+#, python-format
+msgid "<a href='%(url)s'>Followers:</a> %(count)s"
+msgstr "<a href='%(url)s'>追蹤者：</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:32
+#, python-format
+msgid "<a href='%(url)s'>Favorites:</a> %(count)s"
+msgstr "<a href='%(url)s'>收藏：</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:37
+#, python-format
+msgid "<a href='%(url)s'>Direct Messages:</a> %(count)s"
+msgstr "<a href='%(url)s'>信息：</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:41
+#, python-format
+msgid "Updates: %(count)s"
+msgstr "推文： %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:47
+msgid "Take Owler with you! Set up your phone or IM!"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:68 app/utils/forms.py:81
+#: app/utils/forms.py:82
+msgid "Search"
+msgstr "搜尋"
+
+#: app/routes/ajax/views.py:67 app/utils/forms.py:257
+msgid "You cannot send a blank update!"
+msgstr "不能發送空白推文！"
+
+#: app/routes/ajax/views.py:71 app/utils/forms.py:241 app/utils/forms.py:246
+msgid "Status must be less than 280 characters."
+msgstr "推文需要少於280字。"
+
+#: app/routes/auth/views.py:34
+msgid "Please sign in!"
+msgstr "請先登入！"
+
+#: app/routes/auth/views.py:53
+msgid "User not found!"
+msgstr "找不到該用戶！"
+
+#: app/routes/auth/views.py:68
+msgid "If you need to reset your password, contact support."
+msgstr "如需重設密碼，請聯絡支援服務。"
+
+#: app/routes/auth/views.py:82
+msgid "IM is not available yet!"
+msgstr "IM尚未供應！"
+
+#: app/routes/auth/templates/complete.html:5
+msgid "So you want to use Owler on the web…"
+msgstr ""
+
+#: app/routes/auth/templates/complete.html:6
+msgid "Give us the IM account you’ve been using to Owler below."
+msgstr ""
+
+#: app/routes/auth/templates/create.html:15
+msgid "Create a Free Owler Account"
+msgstr "創建免費Owler帳號"
+
+#: app/routes/auth/templates/create.html:16
+#, python-format
+msgid ""
+"Already use Owler on your phone? <a href=\"%(url)s\">Head over here</a> and "
+"we’ll get you signed up on the web."
+msgstr ""
+
+#: app/routes/auth/templates/create.html:38
+msgid "For signing in to Owler (no spaces allowed!)"
+msgstr "登入Owler用（不可輸入空格！）"
+
+#: app/routes/auth/templates/create.html:47
+msgid "Six characters or more (be tricky!)"
+msgstr "最少6個字以上（盡量使用複雜密碼！）"
+
+#: app/routes/auth/templates/create.html:64
+msgid "In case you forget your password! Choose a valid real email"
+msgstr "萬一忘記密碼的時候有用！請輸入實際的電郵"
+
+#: app/routes/auth/templates/create.html:113
+msgid ""
+"By joining Owler, you confirm that you are 13 years of age or older and accept "
+"the"
+msgstr "你已確認自己已經大於13歲及已同意"
+
+#: app/routes/auth/templates/create.html:114 app/templates/base.html:76
+msgid "Terms of Service"
+msgstr "服務條約"
+
+#: app/routes/auth/templates/forgot.html:5 app/routes/auth/templates/login.html:43
+#: app/templates/widgets/side/sign_in.html:17
+msgid "Forgot?"
+msgstr "忘記密碼？"
+
+#: app/routes/auth/templates/forgot.html:6
+msgid "Put in your email address below and we’ll send a confirmation link to you."
+msgstr "留下你的電郵，我們會發送一封驗證電郵。"
+
+#: app/routes/auth/templates/login.html:14
+msgid "Sign in to Owler"
+msgstr "登入Owler"
+
+#: app/routes/auth/templates/login.html:16
+#, python-format
+msgid ""
+"If you’ve been using Owler from your phone, <a href=\"%(url)s\">click here</a> "
+"and we’ll get you signed up on the web."
+msgstr ""
+
+#: app/routes/dynamic/views.py:73
+msgid "Currently unavailable. Send a email to help@owler.cloud if you need help."
+msgstr "目前不可用。如需協助，請發電郵至help@owler.cloud。"
+
+#: app/routes/dynamic/templates/help.html:5
+#: app/routes/dynamic/templates/index.html:7
+#: app/routes/dynamic/templates/index.html:10
+msgid ""
+"A global community of friends and strangers answering one simple question: What "
+"are you doing? Answer right here on the web!"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:11
+msgid "Owler, help!"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:13
+msgid ""
+"Found something we’ve overlooked? Use the form below and we’ll get back to you "
+"shortly."
+msgstr "發現了一些我們忽略了的？填寫下列表格，我們會盡快回覆你。"
+
+#: app/routes/dynamic/templates/help.html:21
+msgid "Type"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:24
+msgid "which happened"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:35
+msgid "required"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:73
+msgid "Owler from your phone!"
+msgstr "移動設備上的Owler！"
+
+#: app/routes/dynamic/templates/help.html:74
+msgid ""
+"Owler is great on the go. Update your followers by sending your updates to one "
+"of the following:"
+msgstr "Owler非常適合移動，發送以下信息來發送推文："
+
+#: app/routes/dynamic/templates/help.html:80
+msgid "<strong>off</strong> turns phone updates off"
+msgstr "<strong>off</strong>關閉移動設備推文"
+
+#: app/routes/dynamic/templates/help.html:81
+msgid "<strong>on</strong> turns phone updates back on"
+msgstr "<strong>on</strong>開啟移動設備推文"
+
+#: app/routes/dynamic/templates/help.html:82
+msgid "<strong>follow redux</strong> follow redux’s updates on your phone"
+msgstr "<strong>follow redux</strong> 在手機上關注redux的推文"
+
+#: app/routes/dynamic/templates/help.html:83
+msgid "<strong>off redux</strong> turn redux’s updates off"
+msgstr "<strong>off redux</strong>關掉redux的推文"
+
+#: app/routes/dynamic/templates/help.html:84
+msgid "<strong>get redux</strong> get redux’s last update"
+msgstr "<strong>get redux</strong>獲得redux的最新推文"
+
+#: app/routes/dynamic/templates/index.html:5
+#: app/routes/dynamic/templates/index.html:11
+msgid "Owler: What are you doing?"
+msgstr "Owler:你在做什麼？"
+
+#: app/routes/dynamic/templates/index.html:16
+msgid ""
+"A global community of friends and strangers answering one simple question: "
+"<em>What are you doing?</em>\n"
+"Answer on your phone, IM, or right here on the web!"
+msgstr ""
+"一群朋友和陌生人的部落，他們都在共同回答一個簡單問題：<b>你在做什麼？</b>\n"
+"在網頁上，或者在移動設備上回答！"
+
+#: app/routes/dynamic/templates/index.html:18
+#, python-format
+msgid "Look at what <a href=\"%(url)s\"> these people are doing right now...</a>"
+msgstr "看看<a href=\"%(url)s\"> 他們現在在做什麼⋯</a>"
+
+#: app/routes/dynamic/templates/public_timeline.html:14
+#: app/routes/mobile/templates/mobile/home.html:17
+msgid "Recent Public Updates"
+msgstr "近期推文"
+
+#: app/routes/dynamic/templates/public_timeline.html:21
+#: app/routes/mobile/templates/mobile/base.html:25
+msgid "Public Timeline"
+msgstr "公開時間線"
+
+#: app/routes/dynamic/templates/statuses.html:30
+#: app/templates/widgets/timeline.html:37
+#, python-format
+msgid "from %(source)s"
+msgstr "從%(source)s"
+
+#: app/routes/mobile/templates/mobile/base.html:21
+#: app/templates/widgets/user_navigation.html:4
+msgid "Home"
+msgstr "主頁"
+
+#: app/routes/mobile/templates/mobile/base.html:23
+msgid "Your Profile"
+msgstr "個人檔案"
+
+#: app/routes/mobile/templates/mobile/base.html:24
+msgid "People You Follow"
+msgstr "你追蹤的人"
+
+#: app/routes/mobile/templates/mobile/base.html:28
+#: app/templates/widgets/user_navigation.html:30
+msgid "Sign out"
+msgstr "登出"
+
+#: app/routes/mobile/templates/mobile/follows.html:5
+#, python-format
+msgid "%(name)s's Friends"
+msgstr "%(name)s的朋友"
+
+#: app/routes/mobile/templates/mobile/follows.html:7
+#: app/routes/profile/templates/profile.html:24
+#, python-format
+msgid "%(name)s's Followers"
+msgstr "%(name)s的追蹤者"
+
+#: app/routes/mobile/templates/mobile/forms.html:3 app/utils/forms.py:229
+msgid "Sign In"
+msgstr "登入"
+
+#: app/routes/mobile/templates/mobile/forms.html:13
+#, python-format
+msgid ""
+"Owler is a global community of friends and strangers answering one simple "
+"question: <b>What are you doing?</b>\n"
+"        Answer on your phone, or right here on the web! Register for an account "
+"from your computer at <a\n"
+"        href=\"%(url)s\">%(url)s</a>."
+msgstr ""
+"Owler是一群朋友和陌生人的部落，他們都在共同回答一個簡單問題：<b>你在做什麼？</"
+"b>\n"
+"在網頁上，或者在移動設備上回答！ 在電腦上<a\\href=\"%(url)s\">%(url)s</a>申請帳"
+"號。"
+
+#: app/routes/mobile/templates/mobile/home.html:13
+msgid "you + friends"
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/home.html:15
+msgid "Updates Replying To You"
+msgstr "回覆你的推文"
+
+#: app/routes/mobile/templates/mobile/profile.html:36
+#, python-format
+msgid "About %(screen_name)s"
+msgstr "關於%(screen_name)s"
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#, python-format
+msgid "%(count)s Friends"
+msgstr "%(count)s位朋友"
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#: app/routes/profile/templates/widgets/side/profile.html:14
+#, python-format
+msgid "%(count)s Followers"
+msgstr "%(count)s位追蹤者"
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#: app/routes/profile/templates/widgets/side/profile.html:12
+#, python-format
+msgid "%(count)s Favorites"
+msgstr "%(count)s個收藏"
+
+#: app/routes/profile/templates/profile.html:22
+msgid "Your Following"
+msgstr "你追蹤的人"
+
+#: app/routes/profile/templates/profile.html:22
+#, python-format
+msgid "%(name)s's Following"
+msgstr "%(name)s追蹤的人"
+
+#: app/routes/profile/templates/profile.html:24
+msgid "Your Followers"
+msgstr "你的追蹤者"
+
+#: app/routes/profile/templates/profile.html:26
+msgid "My Favorites"
+msgstr "我的收藏"
+
+#: app/routes/profile/templates/profile.html:26
+msgid "Star your favorite Owler updates and they'll be saved for you here!"
+msgstr "給喜歡的Owler推文點星星，它們會在這裏出現！"
+
+#: app/routes/profile/templates/profile.html:26
+#, python-format
+msgid "%(name)s's Favorites"
+msgstr "%(name)s的收藏"
+
+#: app/routes/profile/templates/profile.html:45
+msgid "is a friend you're <u>following</u>"
+msgstr "是你<u>追蹤</u>的朋友"
+
+#: app/routes/profile/templates/profile.html:56
+#: app/routes/profile/templates/profile.html:197
+msgid "Notifications on"
+msgstr "開啟通知"
+
+#: app/routes/profile/templates/profile.html:58
+#: app/routes/profile/templates/profile.html:199
+msgid "Notifications off"
+msgstr "關閉通知"
+
+#: app/routes/profile/templates/profile.html:75
+#, python-format
+msgid "You follow %(screen_name)s"
+msgstr "你已關注%(screen_name)s"
+
+#: app/routes/profile/templates/profile.html:77
+msgid "remove"
+msgstr "移除"
+
+#: app/routes/profile/templates/profile.html:82
+#, python-format
+msgid "%(screen_name)s's updates show in your <a href='%(url)s'>timeline</a>."
+msgstr "%(screen_name)s的推文會在你的<a href='%(url)s'>時間線</a>上出現。"
+
+#: app/routes/profile/templates/profile.html:101
+#, python-format
+msgid "You will receive %(screen_name)s's updates via IM."
+msgstr "你會在即時通訊上收到%(screen_name)s的推文。"
+
+#: app/routes/profile/templates/profile.html:146
+msgid "With Friends"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:152
+msgid "Previous"
+msgstr "上一步"
+
+#: app/routes/profile/templates/profile.html:202
+msgid "Invitation sent"
+msgstr "邀請已發送"
+
+#: app/routes/profile/templates/widgets/side/profile.html:2
+#, python-format
+msgid "About <strong>%(screen_name)s"
+msgstr "關於<strong>%(screen_name)s"
+
+#: app/routes/profile/templates/widgets/side/profile.html:5
+#, python-format
+msgid "Name: %(name)s"
+msgstr "名字：%(name)s"
+
+#: app/routes/profile/templates/widgets/side/profile.html:6
+#, python-format
+msgid "Bio: <olb>%(bio)s</olb>"
+msgstr "介紹：<olb>%(bio)s</olb>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:7
+#, python-format
+msgid "Location: <olb>%(location)s</olb>"
+msgstr "地點：<olb>%(location)s</olb>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:8
+#, python-format
+msgid "Web: <a href=\"%(website)s\">%(website)s</a>"
+msgstr "網站：<a href=\"%(website)s\">%(website)s</a>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:9
+#, python-format
+msgid "Joined: %(time)s</a>"
+msgstr "加入時間：%(time)s</a>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:13
+#, python-format
+msgid "%(count)s Following"
+msgstr "%(count)s位追蹤的人"
+
+#: app/routes/profile/templates/widgets/side/profile.html:15
+#, python-format
+msgid "%(count)s Updates"
+msgstr "%(count)s條推文"
+
+#: app/templates/base.html:31
+msgid ""
+"On a mobile phone? Check out <a href=\"//m.owler.cloud\" accesskey=\"2\">m."
+"owler.cloud</a>!"
+msgstr ""
+"在用移動設備？登入<a href=\"//m.owler.cloud” accesskey=\"2\">m.owler.cloud</a>！"
+
+#: app/templates/base.html:34
+msgid "Skip to navigation"
+msgstr "跳到導航列"
+
+#: app/templates/base.html:37
+msgid "Skip to sidebar"
+msgstr "跳到側邊欄"
+
+#: app/templates/base.html:57
+msgid "Footer"
+msgstr "底部"
+
+#: app/templates/base.html:61
+msgid "About Us"
+msgstr "關於我們"
+
+#: app/templates/base.html:64
+msgid "Contact"
+msgstr "聯絡"
+
+#: app/templates/base.html:67
+msgid "Blog"
+msgstr "部落格"
+
+#: app/templates/base.html:70
+msgid "API"
+msgstr "API"
+
+#: app/templates/base.html:73 app/templates/widgets/user_navigation.html:27
+msgid "Help"
+msgstr "幫助"
+
+#: app/templates/base.html:79
+msgid "Privacy"
+msgstr "私隱"
+
+#: app/templates/widgets/errors.html:4
+msgid "Oops! Please fix the following problems:"
+msgstr "噢！請修正下列問題："
+
+#: app/templates/widgets/timeline.html:38
+#, python-format
+msgid "in reply to %(screen_name)s"
+msgstr "回覆%(screen_name)s"
+
+#: app/templates/widgets/user_navigation.html:2
+msgid "Navigation"
+msgstr "導航"
+
+#: app/templates/widgets/user_navigation.html:6
+msgid "Your profile"
+msgstr "個人檔案"
+
+#: app/templates/widgets/user_navigation.html:9
+msgid "Find & Invite"
+msgstr "查找和邀請"
+
+#: app/templates/widgets/user_navigation.html:12
+msgid "Public timeline"
+msgstr "公開時間線"
+
+#: app/templates/widgets/user_navigation.html:16
+msgid "Badges"
+msgstr "小組件"
+
+#: app/templates/widgets/user_navigation.html:20
+msgid "Explore"
+msgstr "探索"
+
+#: app/templates/widgets/user_navigation.html:24
+msgid "Settings"
+msgstr "設定"
+
+#: app/templates/widgets/side/actions.html:3
+msgid "actions"
+msgstr "動作"
+
+#: app/templates/widgets/side/actions.html:6
+msgid "message"
+msgstr "私信"
+
+#: app/templates/widgets/side/notify.html:1
+msgid "Want an account?"
+msgstr "想要帳號？"
+
+#: app/templates/widgets/side/notify.html:2
+msgid "Join for Free!"
+msgstr "免費加入！"
+
+#: app/templates/widgets/side/notify.html:5
+msgid "Have an account?"
+msgstr "有了帳號？"
+
+#: app/templates/widgets/side/notify.html:5
+msgid "Sign in!"
+msgstr "立刻登入！"
+
+#: app/templates/widgets/side/notify.html:7
+msgid "It's fast and easy!"
+msgstr "快捷簡單！"
+
+#: app/templates/widgets/side/sign_in.html:2
+msgid "Already a Member?"
+msgstr "已經是會員了？"
+
+#: app/templates/widgets/side/sign_in.html:2
+msgid "Please Sign In!"
+msgstr "登入吧！"
+
+#: app/utils/const.py:67 app/utils/const.py:81 app/utils/const.py:89
+#: app/utils/const.py:95
+msgid "none"
+msgstr "無"
+
+#: app/utils/const.py:68
+msgid "top left"
+msgstr "左上"
+
+#: app/utils/const.py:69
+msgid "center left"
+msgstr "左"
+
+#: app/utils/const.py:70
+msgid "bottom left"
+msgstr "左下"
+
+#: app/utils/const.py:71
+msgid "top center"
+msgstr "上"
+
+#: app/utils/const.py:72
+msgid "center center"
+msgstr "中"
+
+#: app/utils/const.py:73
+msgid "bottom center"
+msgstr "下"
+
+#: app/utils/const.py:74
+msgid "top right"
+msgstr "右上"
+
+#: app/utils/const.py:75
+msgid "center right"
+msgstr "右"
+
+#: app/utils/const.py:76
+msgid "bottom right"
+msgstr "右下"
+
+#: app/utils/const.py:82
+msgid "no repeat"
+msgstr "不重複"
+
+#: app/utils/const.py:83
+msgid "repeat x"
+msgstr "重複x軸"
+
+#: app/utils/const.py:84
+msgid "repeat y"
+msgstr "重複y軸"
+
+#: app/utils/const.py:85
+msgid "repeat"
+msgstr "重複"
+
+#: app/utils/const.py:90
+msgid "fixed"
+msgstr "固定"
+
+#: app/utils/const.py:91
+msgid "scroll"
+msgstr "滾動"
+
+#: app/utils/const.py:96
+msgid "cover"
+msgstr "覆蓋"
+
+#: app/utils/const.py:97
+msgid "contain"
+msgstr "包含"
+
+#: app/utils/const.py:99
+msgid "auto"
+msgstr "自動"
+
+#: app/utils/filters.py:68
+msgid "less than 5 seconds ago"
+msgstr "少於5秒"
+
+#: app/utils/filters.py:70
+msgid "half a minute ago"
+msgstr "半分鐘前"
+
+#: app/utils/filters.py:72
+msgid "less than a minute ago"
+msgstr "少於1分鐘前"
+
+#: app/utils/filters.py:75
+#, python-format
+msgid "%(count)s minutes ago"
+msgstr "%(count)s分鐘前"
+
+#: app/utils/filters.py:75
+#, python-format
+msgid "%(count)s minute ago"
+msgstr "%(count)s分鐘前"
+
+#: app/utils/filters.py:79
+#, python-format
+msgid "%(count)s hours ago"
+msgstr "%(count)s小時前"
+
+#: app/utils/filters.py:79
+#, python-format
+msgid "%(count)s hour ago"
+msgstr "%(count)s小時前"
+
+#: app/utils/forms.py:18
+msgid "Images only! (jpg, jpeg, png, gif)"
+msgstr "僅可傳送圖像！（JPG，JEPG，PNG，GIF）"
+
+#: app/utils/forms.py:19
+msgid "Password is too short (minimum is 6 characters)"
+msgstr "密碼長度過短（最少6個字）"
+
+#: app/utils/forms.py:41
+msgid "Save!"
+msgstr "保存！"
+
+#: app/utils/forms.py:60
+#, python-format
+msgid "Invalid email address: %(email)s"
+msgstr "電郵地址錯誤：%(email)s"
+
+#: app/utils/forms.py:64
+msgid "Email Addresses"
+msgstr "電郵地址"
+
+#: app/utils/forms.py:65
+msgid "Invite LiveJornal Friends?"
+msgstr "邀請LiveJornal好友？"
+
+#: app/utils/forms.py:66
+msgid "An extra note?"
+msgstr "額外注意點？"
+
+#: app/utils/forms.py:67
+msgid "Invite"
+msgstr "邀請"
+
+#: app/utils/forms.py:71
+msgid "Email:"
+msgstr "電郵："
+
+#: app/utils/forms.py:76
+msgid "IM account:"
+msgstr "即時通訊帳號："
+
+#: app/utils/forms.py:77 app/utils/forms.py:163
+msgid "Continue"
+msgstr "繼續"
+
+#: app/utils/forms.py:81
+msgid "Find folks!"
+msgstr "尋找好友！"
+
+#: app/utils/forms.py:89
+msgid "Default"
+msgstr "預設"
+
+#: app/utils/forms.py:90
+msgid "Classic (2007)"
+msgstr "經典（2007）"
+
+#: app/utils/forms.py:91
+msgid "Night"
+msgstr "深色"
+
+#: app/utils/forms.py:92
+msgid "Christmas"
+msgstr "聖誕"
+
+#: app/utils/forms.py:95
+msgid "Custom CSS (URL)"
+msgstr "自定義CSS（網址）"
+
+#: app/utils/forms.py:95
+msgid "Invalid URL."
+msgstr "網址錯誤。"
+
+#: app/utils/forms.py:96 app/utils/forms.py:116
+msgid "Save Changes"
+msgstr "保存變更"
+
+#: app/utils/forms.py:105
+msgid "Screen Name Color"
+msgstr "顯示名稱顏色"
+
+#: app/utils/forms.py:106
+msgid "Text Color"
+msgstr "文字顏色"
+
+#: app/utils/forms.py:107
+msgid "Link Color"
+msgstr "連結顏色"
+
+#: app/utils/forms.py:108
+msgid "Sidebar Border Color"
+msgstr "側邊欄邊框顏色"
+
+#: app/utils/forms.py:109
+msgid "Sidebar Color"
+msgstr "側邊框顏色"
+
+#: app/utils/forms.py:110
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: app/utils/forms.py:111
+msgid "Background Image (URL)"
+msgstr "背景圖片（網址）"
+
+#: app/utils/forms.py:112
+msgid "Background Position"
+msgstr "背景位置"
+
+#: app/utils/forms.py:113
+msgid "Background Repeat"
+msgstr "背景重複"
+
+#: app/utils/forms.py:114
+msgid "Background Attachment"
+msgstr "背景附件"
+
+#: app/utils/forms.py:115
+msgid "Background Size"
+msgstr "背景尺寸"
+
+#: app/utils/forms.py:117
+msgid "Restore to default"
+msgstr "恢復初始狀態"
+
+#: app/utils/forms.py:122
+msgid "This username is not allowed."
+msgstr "此用戶名不可使用。"
+
+#: app/utils/forms.py:127
+msgid ""
+"This email domain is blacklisted for violating Terms of Service, if you think "
+"this is an error, contact support."
+msgstr "此電郵域名因違反服務條約，已被列入黑名單。如有疑問，請聯絡支援。"
+
+#: app/utils/forms.py:132 app/utils/forms.py:199
+msgid "Full Name"
+msgstr "全名"
+
+#: app/utils/forms.py:135
+msgid "Name is too long (maximum is 50 characters)"
+msgstr "名字長度過長（最多50字）"
+
+#: app/utils/forms.py:138 app/utils/forms.py:201 app/utils/forms.py:226
+msgid "Username"
+msgstr "用戶名"
+
+#: app/utils/forms.py:140
+msgid "Username is too long (maximum is 30 characters)"
+msgstr "用戶名長度過長（最多30字）"
+
+#: app/utils/forms.py:141
+msgid "Username must contain only letters, numbers, or underscores."
+msgstr "僅可使用字母，數字，和下橫線。"
+
+#: app/utils/forms.py:143
+msgid "Email Address"
+msgstr "電郵地址"
+
+#: app/utils/forms.py:144 app/utils/forms.py:209
+msgid "Invalid email address."
+msgstr "電郵地址錯誤。"
+
+#: app/utils/forms.py:145 app/utils/forms.py:212
+msgid "Time Zone"
+msgstr "時區"
+
+#: app/utils/forms.py:146 app/utils/forms.py:213
+msgid "Protect my updates"
+msgstr "保護推文"
+
+#: app/utils/forms.py:147
+msgid "Create Password"
+msgstr "輸入密碼"
+
+#: app/utils/forms.py:152 app/utils/forms.py:169
+msgid "Retype Password"
+msgstr "重新輸入密碼"
+
+#: app/utils/forms.py:155 app/utils/forms.py:172
+msgid "Passwords must match!"
+msgstr "兩個密碼必須符合！"
+
+#: app/utils/forms.py:167
+msgid "Old Password"
+msgstr "舊密碼"
+
+#: app/utils/forms.py:168
+msgid "New Password"
+msgstr "新密碼"
+
+#: app/utils/forms.py:174 app/utils/forms.py:184 app/utils/forms.py:195
+#: app/utils/forms.py:215 app/utils/forms.py:221
+msgid "Save"
+msgstr "保存"
+
+#: app/utils/forms.py:185
+msgid "Delete current"
+msgstr "刪除現有檔案"
+
+#: app/utils/forms.py:190
+msgid "Contact File:"
+msgstr "聯絡人檔案："
+
+#: app/utils/forms.py:192
+msgid "Contact file only! (csv)"
+msgstr "請上傳聯絡人檔案（csv）！"
+
+#: app/utils/forms.py:204
+msgid "Field must contain only letters, numbers, or underscores."
+msgstr "欄內僅可使用字母，數字，和下橫線。"
+
+#: app/utils/forms.py:207
+msgid "More Info URL"
+msgstr "個人網站網址"
+
+#: app/utils/forms.py:208
+msgid "Email"
+msgstr "電郵"
+
+#: app/utils/forms.py:210
+msgid "Language"
+msgstr "語言"
+
+#: app/utils/forms.py:211
+msgid "Show public timeline updates from any language"
+msgstr "在公開時間線上展示任意語言推文"
+
+#: app/utils/forms.py:214
+msgid "Enable proxy"
+msgstr "啟用代理"
+
+#: app/utils/forms.py:219
+msgid "Patch 1"
+msgstr ""
+
+#: app/utils/forms.py:220
+msgid "Custom CSS URL:"
+msgstr "自定義CSS網址："
+
+#: app/utils/forms.py:225
+msgid "Username or Email"
+msgstr "用戶名或電郵"
+
+#: app/utils/forms.py:228
+msgid "Remember me"
+msgstr "記住我"
+
+#: app/utils/forms.py:249
+msgid "Update"
+msgstr "推文"
+
+#: app/utils/forms.py:265
+msgid "Send someone a message."
+msgstr "給用戶發送信息。"
+
+#: app/utils/forms.py:266
+msgid "Message must be less than 280 characters."
+msgstr "信息需要少於280字。"
+
+#: app/utils/forms.py:276
+msgid "You cannot send a blank message!"
+msgstr "不可發送空白信息！"

@@ -1,0 +1,1479 @@
+# Polish translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-07 15:40-0300\n"
+"PO-Revision-Date: 2024-02-08 08:24-0300\n"
+"Last-Translator: \n"
+"Language-Team: pl <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: app/routes/account/views.py:60 app/routes/account/views.py:263 app/routes/ajax/views.py:74
+msgid "Whoa! That's too big, keep it shorter next time."
+msgstr "Woah! ta aktualizacja jest za duża, następnym razem skróć ją."
+
+#: app/routes/account/views.py:63 app/routes/account/views.py:218
+msgid "Message sent!"
+msgstr "Wiadomość wysłana!"
+
+#: app/routes/account/views.py:109
+msgid "Accepted friend request"
+msgstr "Właśnie zaakceptowałeś zaproszenie do znajomych."
+
+#: app/routes/account/views.py:112
+msgid "Denied friend request"
+msgstr "Właśnie odrzuciłeś zaproszenie do znajomych."
+
+#: app/routes/account/views.py:173
+msgid "Successfully confirmed your email."
+msgstr "Pomyślnie potwierdzono Twój adres e-mail."
+
+#: app/routes/account/views.py:178
+msgid "Invalid verification code."
+msgstr "Ten kod weryfikacyjny jest nieprawidłowy."
+
+#: app/routes/account/views.py:187
+msgid "Your email has been verified."
+msgstr "Twój e-mail został zweryfikowany."
+
+#: app/routes/account/views.py:191
+msgid "Confirmation was resent successfully. If you don't see it in your inbox in 5 minutes, please check your spam folder"
+msgstr "Potwierdzenie zostało wysłane pomyślnie. jeśli nie otrzymasz go w ciągu 5 minut, sprawdź folder ze spamem"
+
+#: app/routes/account/views.py:271
+msgid "Something went wrong!"
+msgstr "Coś poszło nie tak!"
+
+#: app/routes/account/views.py:293
+msgid "Invite sent!"
+msgstr "Zaproszenie wysłane!"
+
+#: app/routes/account/views.py:308
+msgid "Thanks for proving you are a human!"
+msgstr "Dziękuję, że udowodniłeś, że jesteś człowiekiem!"
+
+#: app/routes/account/settings/views.py:41 app/routes/account/views.py:313 app/routes/auth/views.py:26
+msgid "Invalid captcha!"
+msgstr "Niepoprawna CAPTCHA!"
+
+#: app/routes/account/views.py:400
+#, python-format
+msgid "%(count)s people were added!"
+msgstr "Dodano %(count)s osób!"
+
+#: app/routes/account/views.py:401
+msgid "No people were found! But you can invite them clicking on \"Find & Invite\""
+msgstr "Nie znaleziono żadnych osób! ale możesz zaprosić niektórych, klikając \"Find & Invite\""
+
+#: app/routes/account/views.py:404
+msgid "Invalid contact file."
+msgstr "Nieprawidłowy plik kontaktu."
+
+#: app/routes/account/settings/views.py:39
+msgid "Goodbye!"
+msgstr "Do widzenia!"
+
+#: app/routes/account/settings/views.py:96 app/routes/auth/views.py:32
+msgid "Email or username is already used by another account."
+msgstr "Adres e-mail lub nazwa użytkownika jest już używana przez innego użytkownika."
+
+#: app/routes/account/settings/views.py:99 app/routes/account/settings/views.py:135
+msgid "Thanks, your settings have been saved."
+msgstr "Dziękujemy, Twoje ustawienia zostały zapisane."
+
+#: app/routes/account/settings/views.py:150
+msgid "You didn't provide a picture."
+msgstr "Nie podałeś zdjęcia."
+
+#: app/routes/account/settings/views.py:154
+msgid "Picture deleted."
+msgstr "Zdjęcie usunięte."
+
+#: app/routes/account/settings/views.py:169
+msgid "That's a nice picture!"
+msgstr "Ładne zdjęcie!"
+
+#: app/routes/account/settings/views.py:183 app/routes/auth/views.py:57
+msgid "Invalid password!"
+msgstr "Nieprawidłowe hasło!"
+
+#: app/routes/account/settings/views.py:192
+msgid "Changed password!"
+msgstr "Zmienione hasło!"
+
+#: app/routes/account/settings/views.py:208
+msgid "Done!"
+msgstr "Zrobione!"
+
+#: app/routes/account/settings/views.py:227
+msgid "You picked a color so transparent, even Casper is jealous!"
+msgstr "Wybrałaś kolor tak przezroczysty, że nawet duchy zazdroszczą!"
+
+#: app/routes/account/settings/views.py:227
+msgid "Changes saved successfully!"
+msgstr "Zmiany zostały zapisane pomyślnie!"
+
+#: app/routes/account/settings/templates/settings.html:40 app/routes/account/settings/templates/settings.html:349
+msgid "Account"
+msgstr "Konto"
+
+#: app/routes/account/settings/templates/settings.html:43 app/routes/account/settings/templates/settings.html:365 app/utils/forms.py:227
+msgid "Password"
+msgstr "Hasło"
+
+#: app/routes/account/settings/templates/settings.html:46
+msgid "Devices"
+msgstr "Urządzenia"
+
+#: app/routes/account/settings/templates/settings.html:49 app/utils/forms.py:158 app/utils/forms.py:179
+msgid "Picture"
+msgstr "Zdjęcie"
+
+#: app/routes/account/settings/templates/settings.html:52 app/routes/account/settings/templates/settings.html:393
+msgid "Design"
+msgstr "Projekt"
+
+#: app/routes/account/settings/templates/settings.html:76
+msgid "Your URL:"
+msgstr "Twój adres URL:"
+
+#: app/routes/account/settings/templates/settings.html:77
+msgid "No spaces, please."
+msgstr "Bez spacji, prosze."
+
+#: app/routes/account/settings/templates/settings.html:102
+msgid "Have a SpaceHey or blog? Put the address here."
+msgstr "Masz SpaceHey lub bloga? podaj tutaj adres."
+
+#: app/routes/account/settings/templates/settings.html:113
+msgid "About yourself in fewer than 160 characters."
+msgstr "O sobie w maksymalnie 180 znakach."
+
+#: app/routes/account/settings/templates/settings.html:122
+msgid "Where in the world are you?"
+msgstr "W jakim miejscu na świecie jesteś?"
+
+#: app/routes/account/settings/templates/settings.html:132
+msgid "Make sure you select the right language, otherwise your updates will be shown on the wrong timeline."
+msgstr "Upewnij się, że wybrałeś właściwy język, w przeciwnym razie zostaniesz umieszczony na niewłaściwej osi czasu."
+
+#: app/routes/account/settings/templates/settings.html:141
+msgid "This allows you to see updates from everyone, independent if the update is in a different language than yours."
+msgstr "Dzięki temu widzisz wszystkich, nawet jeśli nie mówią w Twoim języku."
+
+#: app/routes/account/settings/templates/settings.html:151 app/routes/auth/templates/create.html:93
+msgid "Only let people whom I accept as friends read my updates. If this is checked, you WILL NOT be on the public timeline"
+msgstr "Pozwól TYLKO osobom, które akceptuję jako znajomych, zobaczyć moje aktualizacje. jeśli ta opcja jest zaznaczona, NIE będziesz pokazywany na publicznej osi czasu"
+
+#: app/routes/account/settings/templates/settings.html:160
+msgid "This proxies unsafe background image URLs and embeds so your IP address won't be leaked. If you have issues, you can disable this option."
+msgstr "To zastępuje niebezpieczne adresy URL obrazów tła i osadza je, dzięki czemu Twój adres IP nie zostanie ujawniony. jeśli masz problemy, wyłącz tę opcję."
+
+#: app/routes/account/settings/templates/settings.html:172
+msgid "Delete your account."
+msgstr "Usuń swoje konto."
+
+#: app/routes/account/settings/templates/settings.html:230 app/routes/auth/templates/create.html:82
+msgid "Minimum size 48x48 pixels (jpg, gif, png)"
+msgstr "Minimalny rozmiar 48 x 48 pikseli (.jpg, .gif, .png)"
+
+#: app/routes/account/settings/templates/settings.html:244
+msgid "Design Your Owler"
+msgstr "Zaprojektuj swojego Owle"
+
+#: app/routes/account/settings/templates/settings.html:245
+msgid "Below are the current design settings for your Owler account. You can change, preview, save, or restore to factory default settings any time. If you prefer, you can leave stuff you don't want to change in blank."
+msgstr "Poniżej znajdują się aktualne ustawienia projektu Twojego konta Owler. możesz w dowolnym momencie zapisać, zmienić, wyświetlić podgląd lub przywrócić domyślne ustawienia fabryczne. jeśli wolisz, możesz pozostawić rzeczy, które Cię nie interesują, puste."
+
+#: app/routes/account/settings/templates/settings.html:284
+msgid "Reset background"
+msgstr "Usuń tło"
+
+#: app/routes/account/settings/templates/settings.html:303
+msgid "Connected devices"
+msgstr "Połączone urządzenia"
+
+#: app/routes/account/settings/templates/settings.html:305
+msgid "Here you can access all external applications and devices connected to this account."
+msgstr "Tutaj możesz uzyskać dostęp do wszystkich zewnętrznych programów lub urządzeń podłączonych do Twojego konta."
+
+#: app/routes/account/settings/templates/settings.html:310
+msgid "Device"
+msgstr "Urządzeni"
+
+#: app/routes/account/settings/templates/settings.html:311
+msgid "Token"
+msgstr "Znak"
+
+#: app/routes/account/settings/templates/settings.html:312
+msgid "Actions"
+msgstr "Dzaałani"
+
+#: app/routes/account/settings/templates/settings.html:330
+msgid "No external applications or devices are connected to this account."
+msgstr "Do Twojego konta nie są podłączone żadne zewnętrzne aplikacje ani urządzenia."
+
+#: app/routes/account/settings/templates/settings.html:352
+msgid "From here you can change your basic account info, fill in your profile data, and set whether you want to be private or public"
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:354 app/routes/account/settings/templates/settings.html:381
+msgid "Tips"
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:356
+msgid "Filling in your profile information will help people find you on Owler. For example, you'll be more likely to turn up in an Owler search if you've added your location or your real name"
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:358
+msgid "Change your Owler username anytime without affecting your existing updates, @replies, direct messages, or other data. After changing it, make sure to let your followers know, so you'll continue receiving all of your messages with your new username."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:360
+msgid "Protect your profile to keep your Owler updates private. Approve who can follow you and keep your updates out of search results"
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:369
+msgid "Be tricky! Your password should be at least 6 characters and not a dictionary word or common name. Change your password on occasion."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:370
+msgid "Note:"
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:370
+msgid "If you have trusted a third-party Owler service or software with your password, and you change it here, you'll need to reauthenticate to make that software work. Never enter your password in a third-party service or software that looks suspicious."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:378
+msgid "Your Owler profile pic helps instantly identify you to those following you and tells those who aren't more about you."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:383
+msgid "A real picture of yourself is encouraged as it adds personableness to your updates."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:384
+msgid "People can see the full-sized version when they click on your picture from your profile page. So don't upload a tiny one - we'll create the thumbnail for you."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:386
+msgid "If you want to control exactly how it will be cropped, upload a square picture."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:387
+msgid ""
+"Nudity or obscene images are not allowed. Be sure you have permission to use the photo you're using (And don't use copyrighted images without proper authorization). Respect the rights of content creators and maintain a positive and respectful online "
+"environment."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:396
+msgid "Customize the way Owler looks for you and how your profile looks to others. Customize it with your own color scheme and background image."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:400
+msgid "Owler has two themes: light and dark, so customize your design to look good in both."
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:401
+msgid "You can see what your changes look like instantly, but they're not saved until you click \"Save Changes.\""
+msgstr ""
+
+#: app/routes/account/settings/templates/settings.html:404
+msgid "If you want to start over, click \"Restore to default\""
+msgstr ""
+
+#: app/routes/account/templates/badges.html:17
+msgid "Let the world know (on your homepage)!"
+msgstr ""
+
+#: app/routes/account/templates/badges.html:20
+#, python-format
+msgid "To use this feature, you need to make your profile public in account <a href=\"%(link)s\">settings</a>."
+msgstr ""
+
+#: app/routes/account/templates/badges.html:22
+msgid "Flash Badge"
+msgstr ""
+
+#: app/routes/account/templates/badges.html:23
+msgid "Choose a color and paste the code into your MySpace, Blogger, LiveJournal, Xanga, whatever!"
+msgstr ""
+
+#: app/routes/account/templates/badges.html:42
+msgid "JavaScript Badges"
+msgstr ""
+
+#: app/routes/account/templates/badges.html:43
+msgid "Want something simpler? Want to style your status through CSS? Copy this JavaScript version instead:"
+msgstr ""
+
+#: app/routes/account/templates/direct_messages.html:17 app/utils/forms.py:72 app/utils/forms.py:270
+msgid "Send"
+msgstr "Wysłać"
+
+#: app/routes/account/templates/direct_messages.html:17
+msgid "a message."
+msgstr "wiadomość."
+
+#: app/routes/account/templates/direct_messages.html:20 app/routes/account/templates/home.html:20
+msgid "Characters available: "
+msgstr "Dostępne postacie: "
+
+#: app/routes/account/templates/direct_messages.html:42
+msgid "Sent"
+msgstr "Wysłano"
+
+#: app/routes/account/templates/direct_messages.html:45
+msgid "Inbox"
+msgstr "Skrzynka pocztowa"
+
+#: app/routes/account/templates/direct_messages.html:50
+msgid "Messages Sent Directly To You"
+msgstr "Wiadomości wysyłane bezpośrednio do Ciebie"
+
+#: app/routes/account/templates/direct_messages.html:50
+msgid "Messages Sent Only To You"
+msgstr "Wiadomości wysyłane tylko do Ciebie"
+
+#: app/routes/account/templates/direct_messages.html:102
+#, python-format
+msgid "to %(screen_name)s"
+msgstr "do %(screen_name)s"
+
+#: app/routes/account/templates/direct_messages.html:118 app/routes/mobile/templates/mobile/timeline.html:19 app/templates/widgets/timeline.html:54
+msgid "Newer"
+msgstr "Nowsza"
+
+#: app/routes/account/templates/direct_messages.html:124 app/routes/account/templates/search_users.html:91 app/routes/mobile/templates/mobile/timeline.html:22 app/templates/widgets/timeline.html:60
+msgid "Older"
+msgstr "Starzy"
+
+#: app/routes/account/templates/find_folks.html:18
+msgid "Find Folks from Your Gmail Address Book"
+msgstr "Znajdź osoby ze swojej skrzynki e-mail"
+
+#: app/routes/account/templates/find_folks.html:19
+msgid "Follow these instructions to add your friends from your Gmail address book."
+msgstr "Postępuj zgodnie z poniższymi instrukcjami, aby dodać znajomych z książki adresowej e-mail."
+
+#: app/routes/account/templates/find_folks.html:21
+msgid "Sign in to your email."
+msgstr "Zaloguj się na swoją pocztę e-mail."
+
+#: app/routes/account/templates/find_folks.html:22
+msgid "Go to <b>Google Contacts</b>."
+msgstr "Przejdź do <b>Kontaktów Google</b>."
+
+#: app/routes/account/templates/find_folks.html:23
+msgid "Select the contacts you want to export."
+msgstr "Wybierz kontakty, które chcesz wyeksportować."
+
+#: app/routes/account/templates/find_folks.html:24
+msgid "On the menu on the left, select <b>Export</b>."
+msgstr "W menu po lewej stronie wybierz opcję <b>Eksportuj</b>."
+
+#: app/routes/account/templates/find_folks.html:25
+msgid "At the bottom of the popup, select <b>Export</b>."
+msgstr "Na dole wyskakującego okienka wybierz <b>eksportuj</b>."
+
+#: app/routes/account/templates/find_folks.html:26
+msgid "Upload the contacts file below:"
+msgstr "Prześlij poniższy plik kontaktowy:"
+
+#: app/routes/account/templates/friend_requests.html:7
+msgid "Friend Requests"
+msgstr "Prośby o znajomych"
+
+#: app/routes/account/templates/friend_requests.html:28
+msgid "accept"
+msgstr "zaakceptować"
+
+#: app/routes/account/templates/friend_requests.html:29
+msgid "deny"
+msgstr "zaprzeczyć"
+
+#: app/routes/account/templates/friend_requests.html:38
+msgid "No friend requests found"
+msgstr "Nie znaleziono zaproszeń do znajomych"
+
+#: app/routes/account/templates/home.html:16
+#, python-format
+msgid "Replying to %(screen_name)s"
+msgstr "Odpowiadając do %(screen_name)s"
+
+#: app/routes/account/templates/home.html:17 app/routes/mobile/templates/mobile/home.html:7 app/utils/forms.py:240 app/utils/forms.py:245
+msgid "What are you doing?"
+msgstr "Co robisz?"
+
+#: app/routes/account/templates/home.html:43
+msgid "Your account is being restricted"
+msgstr "Twoje konto zostało ograniczone"
+
+#: app/routes/account/templates/home.html:48
+#, python-format
+msgid ""
+"Please confirm your account — a confirmation message was sent to %(email)s<br>\n"
+"    <small>Until you confirm, you will have limited access to certain features on Owler.<br>\n"
+"        <a href=\"%(resend_email_url)s\">Resend confirmation</a> - <a\n"
+"                href=\"%(settings_url)s\">Change email address</a></small>"
+msgstr ""
+"Potwierdź swoje konto — wiadomość z potwierdzeniem została wysłana na adres %(email)s<br>\n"
+"<small>Dopóki tego nie potwierdzisz, będziesz mieć ograniczony dostęp do niektórych funkcje Owler.<br\n"
+"        <a href=\"%(resend_email_url)s\">Wyślij ponownie potwierdzenie</a> - <a\n"
+"                href=\\%(settings_url)s\">Zmień adres e-mail</a></small>"
+
+#: app/routes/account/templates/home.html:56
+msgid "Archive"
+msgstr "Archiwum"
+
+#: app/routes/account/templates/home.html:59
+msgid "Replies"
+msgstr "Odpowiedzi do Ciebie"
+
+#: app/routes/account/templates/home.html:62 app/routes/account/templates/home.html:65
+msgid "Recent"
+msgstr "Ostatni"
+
+#: app/routes/account/templates/home.html:62 app/routes/profile/templates/profile.html:54 app/routes/profile/templates/profile.html:195
+msgid "Following"
+msgstr "Od osób, które obserwujesz"
+
+#: app/routes/account/templates/home.html:70
+msgid "Your Updates"
+msgstr "Twoje aktualizacje"
+
+#: app/routes/account/templates/home.html:71
+msgid ""
+"Updates Replying To\n"
+"        You"
+msgstr ""
+"Aktualizacje mówią o\n"
+"        Tobie"
+
+#: app/routes/account/templates/home.html:73
+#, python-format
+msgid "What You And Your <a href=\"%(url)s\">Friends</a> Are Doing"
+msgstr "Co robisz ty i <a href=\"%(url)s\">twoi</a> przyjaciele"
+
+#: app/routes/account/templates/home.html:74
+#, python-format
+msgid ""
+"What You And <a\n"
+"        href=\"%(url)s\">They</a> Are Doing"
+msgstr ""
+"Co ty i <a\n"
+"        href=\\%(url)s\">oni</a> teraz robicie"
+
+#: app/routes/account/templates/invitations.html:8
+msgid "Find and Invite More People!"
+msgstr "Znajdź i zaproś więcej osób!"
+
+#: app/routes/account/templates/invitations.html:9
+#, python-format
+msgid ""
+"Owler is better when other people are involved. <a href=\"%(url)s\">Check the\n"
+"        status of previous invitations.</a>"
+msgstr ""
+
+#: app/routes/account/templates/invitations.html:18
+msgid "<b>Find</b> Folks from Your Gmail Address Book"
+msgstr ""
+
+#: app/routes/account/templates/invitations.html:27
+msgid "<b>Invite</b> People to Join Owler via Email"
+msgstr ""
+
+#: app/routes/account/templates/invitations.html:36
+msgid "<b>Search</b> for People Already on Owler"
+msgstr ""
+
+#: app/routes/account/templates/invitations.html:52 app/routes/account/templates/search_users.html:20
+msgid "search"
+msgstr "szukaj"
+
+#: app/routes/account/templates/previous_invitations.html:3
+msgid "Owler"
+msgstr "Owler"
+
+#: app/routes/account/templates/previous_invitations.html:9
+msgid "Your Previous Invitations"
+msgstr "Twoje poprzednie zaproszenia"
+
+#: app/routes/account/templates/previous_invitations.html:10
+#, python-format
+msgid "No invitations found, but you can invite people <a href=\"%(url)s\">clicking here</a>"
+msgstr ""
+
+#: app/routes/account/templates/search_users.html:10
+#, python-format
+msgid "Results %(page)s - %(total_pages)s of %(total_users)s for \"%(keyword)s\""
+msgstr "Wyniki %(page)s - %(total_pages)s z %(total_users)s dla \"%(keyword)s\""
+
+#: app/routes/account/templates/search_users.html:10
+msgid "Who are you looking for?"
+msgstr "Kogo szukasz?"
+
+#: app/routes/account/templates/search_users.html:20
+msgid "Your search term is highlighted below."
+msgstr "Wyszukiwane hasło jest wyróżnione poniżej."
+
+#: app/routes/account/templates/search_users.html:20
+msgid "Examples: John, bob@test.com, San Francisco, user123."
+msgstr "Przykłady: Jan, bob@test.com, San Francisco, użytkownik123."
+
+#: app/routes/account/templates/search_users.html:54 app/routes/profile/templates/profile.html:88
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+#: app/routes/account/templates/search_users.html:58 app/routes/profile/templates/profile.html:94
+msgid "On"
+msgstr "Na"
+
+#: app/routes/account/templates/search_users.html:63 app/routes/profile/templates/profile.html:99
+msgid "Off"
+msgstr "Wyłączony"
+
+#: app/routes/account/templates/search_users.html:76
+msgid "Name"
+msgstr "Nazwa"
+
+#: app/routes/account/templates/search_users.html:78 app/utils/forms.py:206
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: app/routes/account/templates/search_users.html:79 app/utils/forms.py:205
+msgid "Bio"
+msgstr "Bio"
+
+#: app/routes/account/templates/search_users.html:81
+msgid "Recently"
+msgstr "Ostatnio"
+
+#: app/routes/account/templates/search_users.html:81 app/routes/mobile/templates/mobile/profile.html:14 app/routes/profile/templates/profile.html:115
+msgid "My updates are protected."
+msgstr "Moje aktualizacje są chronione."
+
+#: app/routes/account/templates/search_users.html:81 app/routes/mobile/templates/mobile/profile.html:14 app/routes/profile/templates/profile.html:138
+msgid "Haven't updated yet!"
+msgstr "Jeszcze nie zaktualizowałem!"
+
+#: app/routes/account/templates/search_users.html:90
+#, python-format
+msgid "page %(page)s of %(total_pages)s"
+msgstr "strona %(page)s z %(total_pages)s"
+
+#: app/routes/account/templates/search_users.html:91
+msgid "Next"
+msgstr "Następny"
+
+#: app/routes/account/templates/send_message.html:8
+#, python-format
+msgid "Send <a href=\"%(url)s\">%(name)s</a> a message."
+msgstr ""
+
+#: app/routes/account/templates/widgets/welcome.html:9
+#, python-format
+msgid "Welcome to Owler, %(name)s!"
+msgstr "Witamy w Owler, %(name)s!"
+
+#: app/routes/account/templates/widgets/welcome.html:14
+msgid "Tell us what <b>you're</b> doing in the box above"
+msgstr ""
+
+#: app/routes/account/templates/widgets/welcome.html:19
+#, python-format
+msgid "<a href='%(url)s'>Invite some friends</a> and follow what <b>they're</b> doing"
+msgstr ""
+
+#: app/routes/account/templates/widgets/welcome.html:24
+#, python-format
+msgid "<a href='%(url)s'>Turn on your mobile phone</a> to update your friends on the go"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:2
+#, python-format
+msgid "Welcome, <a href='%(url)s'><strong>%(screen_name)s"
+msgstr "Powitanie, <a href='%(url)s'><strong>%(screen_name)s"
+
+#: app/routes/account/templates/widgets/side/user.html:5
+#, python-format
+msgid ""
+"Awesome new feature!<br>\n"
+"        <a href=\"%(url)s\">Search Gmail Contacts</a>\n"
+"        <br>and follow more folks.\n"
+"        </div>"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:13
+#, python-format
+msgid "<b>Currently:</b> <span id='about_text'>%(recently)s</span>"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:19
+#, python-format
+msgid "<a href='%(url)s'>Friend Requests:</a> %(count)s"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:25
+#, python-format
+msgid "<a href='%(url)s'>Following:</a> %(count)s"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:28
+#, python-format
+msgid "<a href='%(url)s'>Followers:</a> %(count)s"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:32
+#, python-format
+msgid "<a href='%(url)s'>Favorites:</a> %(count)s"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:37
+#, python-format
+msgid "<a href='%(url)s'>Direct Messages:</a> %(count)s"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:41
+#, python-format
+msgid "Updates: %(count)s"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:47
+msgid "Take Owler with you! Set up your phone or IM!"
+msgstr ""
+
+#: app/routes/account/templates/widgets/side/user.html:68 app/utils/forms.py:81 app/utils/forms.py:82
+msgid "Search"
+msgstr "Szukaj"
+
+#: app/routes/ajax/views.py:67 app/utils/forms.py:257
+msgid "You cannot send a blank update!"
+msgstr "Nie możesz wysłać pustej aktualizacji!"
+
+#: app/routes/ajax/views.py:71 app/utils/forms.py:241 app/utils/forms.py:246
+msgid "Status must be less than 280 characters."
+msgstr "Status musi mieć mniej niż 280 znaków."
+
+#: app/routes/auth/views.py:34
+msgid "Please sign in!"
+msgstr ""
+
+#: app/routes/auth/views.py:53
+msgid "User not found!"
+msgstr ""
+
+#: app/routes/auth/views.py:68
+msgid "If you need to reset your password, contact support."
+msgstr ""
+
+#: app/routes/auth/views.py:82
+msgid "IM is not available yet!"
+msgstr ""
+
+#: app/routes/auth/templates/complete.html:5
+msgid "So you want to use Owler on the web…"
+msgstr ""
+
+#: app/routes/auth/templates/complete.html:6
+msgid "Give us the IM account you’ve been using to Owler below."
+msgstr ""
+
+#: app/routes/auth/templates/create.html:15
+msgid "Create a Free Owler Account"
+msgstr ""
+
+#: app/routes/auth/templates/create.html:16
+#, python-format
+msgid "Already use Owler on your phone? <a href=\"%(url)s\">Head over here</a> and we’ll get you signed up on the web."
+msgstr ""
+
+#: app/routes/auth/templates/create.html:38
+msgid "For signing in to Owler (no spaces allowed!)"
+msgstr ""
+
+#: app/routes/auth/templates/create.html:47
+msgid "Six characters or more (be tricky!)"
+msgstr ""
+
+#: app/routes/auth/templates/create.html:64
+msgid "In case you forget your password! Choose a valid real email"
+msgstr ""
+
+#: app/routes/auth/templates/create.html:113
+msgid "By joining Owler, you confirm that you are 13 years of age or older and accept the"
+msgstr ""
+
+#: app/routes/auth/templates/create.html:114 app/templates/base.html:76
+msgid "Terms of Service"
+msgstr ""
+
+#: app/routes/auth/templates/forgot.html:5 app/routes/auth/templates/login.html:43 app/templates/widgets/side/sign_in.html:17
+msgid "Forgot?"
+msgstr ""
+
+#: app/routes/auth/templates/forgot.html:6
+msgid "Put in your email address below and we’ll send a confirmation link to you."
+msgstr ""
+
+#: app/routes/auth/templates/login.html:14
+msgid "Sign in to Owler"
+msgstr ""
+
+#: app/routes/auth/templates/login.html:16
+#, python-format
+msgid "If you’ve been using Owler from your phone, <a href=\"%(url)s\">click here</a> and we’ll get you signed up on the web."
+msgstr ""
+
+#: app/routes/dynamic/views.py:73
+msgid "Currently unavailable. Send a email to help@owler.cloud if you need help."
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:5 app/routes/dynamic/templates/index.html:7 app/routes/dynamic/templates/index.html:10
+msgid "A global community of friends and strangers answering one simple question: What are you doing? Answer right here on the web!"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:11
+msgid "Owler, help!"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:13
+msgid "Found something we’ve overlooked? Use the form below and we’ll get back to you shortly."
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:21
+msgid "Type"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:24
+msgid "which happened"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:35
+msgid "required"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:73
+msgid "Owler from your phone!"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:74
+msgid "Owler is great on the go. Update your followers by sending your updates to one of the following:"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:80
+msgid "<strong>off</strong> turns phone updates off"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:81
+msgid "<strong>on</strong> turns phone updates back on"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:82
+msgid "<strong>follow redux</strong> follow redux’s updates on your phone"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:83
+msgid "<strong>off redux</strong> turn redux’s updates off"
+msgstr ""
+
+#: app/routes/dynamic/templates/help.html:84
+msgid "<strong>get redux</strong> get redux’s last update"
+msgstr ""
+
+#: app/routes/dynamic/templates/index.html:5 app/routes/dynamic/templates/index.html:11
+msgid "Owler: What are you doing?"
+msgstr ""
+
+#: app/routes/dynamic/templates/index.html:16
+msgid ""
+"A global community of friends and strangers answering one simple question: <em>What are you doing?</em>\n"
+"Answer on your phone, IM, or right here on the web!"
+msgstr ""
+
+#: app/routes/dynamic/templates/index.html:18
+#, python-format
+msgid "Look at what <a href=\"%(url)s\"> these people are doing right now...</a>"
+msgstr ""
+
+#: app/routes/dynamic/templates/public_timeline.html:14 app/routes/mobile/templates/mobile/home.html:17
+msgid "Recent Public Updates"
+msgstr "Najnowsze aktualizacje publiczne"
+
+#: app/routes/dynamic/templates/public_timeline.html:21 app/routes/mobile/templates/mobile/base.html:25
+msgid "Public Timeline"
+msgstr "Publiczna oś czasu"
+
+#: app/routes/dynamic/templates/statuses.html:30 app/templates/widgets/timeline.html:37
+#, python-format
+msgid "from %(source)s"
+msgstr "od %(source)s"
+
+#: app/routes/mobile/templates/mobile/base.html:21 app/templates/widgets/user_navigation.html:4
+msgid "Home"
+msgstr "Dom"
+
+#: app/routes/mobile/templates/mobile/base.html:23
+msgid "Your Profile"
+msgstr "Twój profil"
+
+#: app/routes/mobile/templates/mobile/base.html:24
+msgid "People You Follow"
+msgstr "Osoby, które obserwujesz"
+
+#: app/routes/mobile/templates/mobile/base.html:28 app/templates/widgets/user_navigation.html:30
+msgid "Sign out"
+msgstr "Wyloguj się"
+
+#: app/routes/mobile/templates/mobile/follows.html:5
+#, python-format
+msgid "%(name)s's Friends"
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/follows.html:7 app/routes/profile/templates/profile.html:24
+#, python-format
+msgid "%(name)s's Followers"
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/forms.html:3 app/utils/forms.py:229
+msgid "Sign In"
+msgstr "Zalogować się"
+
+#: app/routes/mobile/templates/mobile/forms.html:13
+#, python-format
+msgid ""
+"Owler is a global community of friends and strangers answering one simple question: <b>What are you doing?</b>\n"
+"        Answer on your phone, or right here on the web! Register for an account from your computer at <a\n"
+"        href=\"%(url)s\">%(url)s</a>."
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/home.html:13
+msgid "you + friends"
+msgstr "ty + przyjaciele"
+
+#: app/routes/mobile/templates/mobile/home.html:15
+msgid "Updates Replying To You"
+msgstr "Aktualizacje odpowiadające Tobie"
+
+#: app/routes/mobile/templates/mobile/profile.html:36
+#, python-format
+msgid "About %(screen_name)s"
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#, python-format
+msgid "%(count)s Friends"
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/profile.html:39 app/routes/profile/templates/widgets/side/profile.html:14
+#, python-format
+msgid "%(count)s Followers"
+msgstr ""
+
+#: app/routes/mobile/templates/mobile/profile.html:39 app/routes/profile/templates/widgets/side/profile.html:12
+#, python-format
+msgid "%(count)s Favorites"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:22
+msgid "Your Following"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:22
+#, python-format
+msgid "%(name)s's Following"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:24
+msgid "Your Followers"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:26
+msgid "My Favorites"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:26
+msgid "Star your favorite Owler updates and they'll be saved for you here!"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:26
+#, python-format
+msgid "%(name)s's Favorites"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:45
+msgid "is a friend you're <u>following</u>"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:56 app/routes/profile/templates/profile.html:197
+msgid "Notifications on"
+msgstr "Powiadomienia włączone"
+
+#: app/routes/profile/templates/profile.html:58 app/routes/profile/templates/profile.html:199
+msgid "Notifications off"
+msgstr "Powiadomienia wyłączone"
+
+#: app/routes/profile/templates/profile.html:75
+#, python-format
+msgid "You follow %(screen_name)s"
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:77
+msgid "remove"
+msgstr "wyjąć"
+
+#: app/routes/profile/templates/profile.html:82
+#, python-format
+msgid "%(screen_name)s's updates show in your <a href='%(url)s'>timeline</a>."
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:101
+#, python-format
+msgid "You will receive %(screen_name)s's updates via IM."
+msgstr ""
+
+#: app/routes/profile/templates/profile.html:146
+msgid "With Friends"
+msgstr "Z przyjaciółmi"
+
+#: app/routes/profile/templates/profile.html:152
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: app/routes/profile/templates/profile.html:202
+msgid "Invitation sent"
+msgstr "Zaproszenie wysłane"
+
+#: app/routes/profile/templates/widgets/side/profile.html:2
+#, python-format
+msgid "About <strong>%(screen_name)s"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:5
+#, python-format
+msgid "Name: %(name)s"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:6
+#, python-format
+msgid "Bio: <olb>%(bio)s</olb>"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:7
+#, python-format
+msgid "Location: <olb>%(location)s</olb>"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:8
+#, python-format
+msgid "Web: <a href=\"%(website)s\">%(website)s</a>"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:9
+#, python-format
+msgid "Joined: %(time)s</a>"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:13
+#, python-format
+msgid "%(count)s Following"
+msgstr ""
+
+#: app/routes/profile/templates/widgets/side/profile.html:15
+#, python-format
+msgid "%(count)s Updates"
+msgstr ""
+
+#: app/templates/base.html:31
+msgid "On a mobile phone? Check out <a href=\"//m.owler.cloud\" accesskey=\"2\">m.owler.cloud</a>!"
+msgstr ""
+
+#: app/templates/base.html:34
+msgid "Skip to navigation"
+msgstr "Przejdź do nawigacji"
+
+#: app/templates/base.html:37
+msgid "Skip to sidebar"
+msgstr "Przejdź do paska bocznego"
+
+#: app/templates/base.html:57
+msgid "Footer"
+msgstr "Stopka"
+
+#: app/templates/base.html:61
+msgid "About Us"
+msgstr "O nas"
+
+#: app/templates/base.html:64
+msgid "Contact"
+msgstr "Kontak"
+
+#: app/templates/base.html:67
+msgid "Blog"
+msgstr "Blogu"
+
+#: app/templates/base.html:70
+msgid "API"
+msgstr "API"
+
+#: app/templates/base.html:73 app/templates/widgets/user_navigation.html:27
+msgid "Help"
+msgstr "Pomoc"
+
+#: app/templates/base.html:79
+msgid "Privacy"
+msgstr "Prywatność"
+
+#: app/templates/widgets/errors.html:4
+msgid "Oops! Please fix the following problems:"
+msgstr "Ups! proszę o rozwiązanie następujących problemów:"
+
+#: app/templates/widgets/timeline.html:38
+#, python-format
+msgid "in reply to %(screen_name)s"
+msgstr "w odpowiedzi na %(screen_name)s"
+
+#: app/templates/widgets/user_navigation.html:2
+msgid "Navigation"
+msgstr "Nawigacja"
+
+#: app/templates/widgets/user_navigation.html:6
+msgid "Your profile"
+msgstr "Twój profil"
+
+#: app/templates/widgets/user_navigation.html:9
+msgid "Find & Invite"
+msgstr "Znajdź & zaproś ludzi"
+
+#: app/templates/widgets/user_navigation.html:12
+msgid "Public timeline"
+msgstr "Publiczna oś czasu"
+
+#: app/templates/widgets/user_navigation.html:16
+msgid "Badges"
+msgstr "Odznaki"
+
+#: app/templates/widgets/user_navigation.html:20
+msgid "Explore"
+msgstr "Badać"
+
+#: app/templates/widgets/user_navigation.html:24
+msgid "Settings"
+msgstr "Ustawieni"
+
+#: app/templates/widgets/side/actions.html:3
+msgid "actions"
+msgstr "działania"
+
+#: app/templates/widgets/side/actions.html:6
+msgid "message"
+msgstr "wiadomość"
+
+#: app/templates/widgets/side/notify.html:1
+msgid "Want an account?"
+msgstr "Chcesz konto?"
+
+#: app/templates/widgets/side/notify.html:2
+msgid "Join for Free!"
+msgstr "Dołącz za darmo!"
+
+#: app/templates/widgets/side/notify.html:5
+msgid "Have an account?"
+msgstr "Masz już konto?"
+
+#: app/templates/widgets/side/notify.html:5
+msgid "Sign in!"
+msgstr "Zalogować się!"
+
+#: app/templates/widgets/side/notify.html:7
+msgid "It's fast and easy!"
+msgstr "To szybkie i łatwe!"
+
+#: app/templates/widgets/side/sign_in.html:2
+msgid "Already a Member?"
+msgstr "Jesteś już członkiem?"
+
+#: app/templates/widgets/side/sign_in.html:2
+msgid "Please Sign In!"
+msgstr "Proszę, zaloguj się!"
+
+#: app/utils/const.py:67 app/utils/const.py:81 app/utils/const.py:89 app/utils/const.py:95
+msgid "none"
+msgstr ""
+
+#: app/utils/const.py:68
+msgid "top left"
+msgstr ""
+
+#: app/utils/const.py:69
+msgid "center left"
+msgstr ""
+
+#: app/utils/const.py:70
+msgid "bottom left"
+msgstr ""
+
+#: app/utils/const.py:71
+msgid "top center"
+msgstr ""
+
+#: app/utils/const.py:72
+msgid "center center"
+msgstr ""
+
+#: app/utils/const.py:73
+msgid "bottom center"
+msgstr ""
+
+#: app/utils/const.py:74
+msgid "top right"
+msgstr ""
+
+#: app/utils/const.py:75
+msgid "center right"
+msgstr ""
+
+#: app/utils/const.py:76
+msgid "bottom right"
+msgstr ""
+
+#: app/utils/const.py:82
+msgid "no repeat"
+msgstr ""
+
+#: app/utils/const.py:83
+msgid "repeat x"
+msgstr ""
+
+#: app/utils/const.py:84
+msgid "repeat y"
+msgstr ""
+
+#: app/utils/const.py:85
+msgid "repeat"
+msgstr ""
+
+#: app/utils/const.py:90
+msgid "fixed"
+msgstr ""
+
+#: app/utils/const.py:91
+msgid "scroll"
+msgstr ""
+
+#: app/utils/const.py:96
+msgid "cover"
+msgstr ""
+
+#: app/utils/const.py:97
+msgid "contain"
+msgstr ""
+
+#: app/utils/const.py:99
+msgid "auto"
+msgstr ""
+
+#: app/utils/filters.py:68
+msgid "less than 5 seconds ago"
+msgstr "mniej niż 5 sekund temu"
+
+#: app/utils/filters.py:70
+msgid "half a minute ago"
+msgstr "pół minuty tem"
+
+#: app/utils/filters.py:72
+msgid "less than a minute ago"
+msgstr "mniej niż minutę temu"
+
+#: app/utils/filters.py:75
+#, python-format
+msgid "%(count)s minutes ago"
+msgstr "%(count)s minut tem"
+
+#: app/utils/filters.py:75
+#, python-format
+msgid "%(count)s minute ago"
+msgstr "%(count)s minuta temu"
+
+#: app/utils/filters.py:79
+#, python-format
+msgid "%(count)s hours ago"
+msgstr "%(count)s godziny temu"
+
+#: app/utils/filters.py:79
+#, python-format
+msgid "%(count)s hour ago"
+msgstr "%(count)s godzinę temu"
+
+#: app/utils/forms.py:18
+msgid "Images only! (jpg, jpeg, png, gif)"
+msgstr "Tylko obrazy! (.jpg, .jpeg, .png, .gif)"
+
+#: app/utils/forms.py:19
+msgid "Password is too short (minimum is 6 characters)"
+msgstr "Hasło jest za krótkie! (To minimum 6 znaków)"
+
+#: app/utils/forms.py:41
+msgid "Save!"
+msgstr "Zaoszczędzić!"
+
+#: app/utils/forms.py:60
+#, python-format
+msgid "Invalid email address: %(email)s"
+msgstr "Niepoprawny adres e-mail: %(email)s"
+
+#: app/utils/forms.py:64
+msgid "Email Addresses"
+msgstr ""
+
+#: app/utils/forms.py:65
+msgid "Invite LiveJornal Friends?"
+msgstr ""
+
+#: app/utils/forms.py:66
+msgid "An extra note?"
+msgstr ""
+
+#: app/utils/forms.py:67
+msgid "Invite"
+msgstr ""
+
+#: app/utils/forms.py:71
+msgid "Email:"
+msgstr ""
+
+#: app/utils/forms.py:76
+msgid "IM account:"
+msgstr ""
+
+#: app/utils/forms.py:77 app/utils/forms.py:163
+msgid "Continue"
+msgstr ""
+
+#: app/utils/forms.py:81
+msgid "Find folks!"
+msgstr ""
+
+#: app/utils/forms.py:89
+msgid "Default"
+msgstr ""
+
+#: app/utils/forms.py:90
+msgid "Classic (2007)"
+msgstr ""
+
+#: app/utils/forms.py:91
+msgid "Night"
+msgstr ""
+
+#: app/utils/forms.py:92
+msgid "Christmas"
+msgstr ""
+
+#: app/utils/forms.py:95
+msgid "Custom CSS (URL)"
+msgstr ""
+
+#: app/utils/forms.py:95
+msgid "Invalid URL."
+msgstr ""
+
+#: app/utils/forms.py:96 app/utils/forms.py:116
+msgid "Save Changes"
+msgstr ""
+
+#: app/utils/forms.py:105
+msgid "Screen Name Color"
+msgstr ""
+
+#: app/utils/forms.py:106
+msgid "Text Color"
+msgstr ""
+
+#: app/utils/forms.py:107
+msgid "Link Color"
+msgstr ""
+
+#: app/utils/forms.py:108
+msgid "Sidebar Border Color"
+msgstr ""
+
+#: app/utils/forms.py:109
+msgid "Sidebar Color"
+msgstr ""
+
+#: app/utils/forms.py:110
+msgid "Background Color"
+msgstr ""
+
+#: app/utils/forms.py:111
+msgid "Background Image (URL)"
+msgstr ""
+
+#: app/utils/forms.py:112
+msgid "Background Position"
+msgstr ""
+
+#: app/utils/forms.py:113
+msgid "Background Repeat"
+msgstr ""
+
+#: app/utils/forms.py:114
+msgid "Background Attachment"
+msgstr ""
+
+#: app/utils/forms.py:115
+msgid "Background Size"
+msgstr ""
+
+#: app/utils/forms.py:117
+msgid "Restore to default"
+msgstr ""
+
+#: app/utils/forms.py:122
+msgid "This username is not allowed."
+msgstr ""
+
+#: app/utils/forms.py:127
+msgid "This email domain is blacklisted for violating Terms of Service, if you think this is an error, contact support."
+msgstr ""
+
+#: app/utils/forms.py:132 app/utils/forms.py:199
+msgid "Full Name"
+msgstr ""
+
+#: app/utils/forms.py:135
+msgid "Name is too long (maximum is 50 characters)"
+msgstr ""
+
+#: app/utils/forms.py:138 app/utils/forms.py:201 app/utils/forms.py:226
+msgid "Username"
+msgstr ""
+
+#: app/utils/forms.py:140
+msgid "Username is too long (maximum is 30 characters)"
+msgstr ""
+
+#: app/utils/forms.py:141
+msgid "Username must contain only letters, numbers, or underscores."
+msgstr ""
+
+#: app/utils/forms.py:143
+msgid "Email Address"
+msgstr ""
+
+#: app/utils/forms.py:144 app/utils/forms.py:209
+msgid "Invalid email address."
+msgstr ""
+
+#: app/utils/forms.py:145 app/utils/forms.py:212
+msgid "Time Zone"
+msgstr ""
+
+#: app/utils/forms.py:146 app/utils/forms.py:213
+msgid "Protect my updates"
+msgstr ""
+
+#: app/utils/forms.py:147
+msgid "Create Password"
+msgstr ""
+
+#: app/utils/forms.py:152 app/utils/forms.py:169
+msgid "Retype Password"
+msgstr ""
+
+#: app/utils/forms.py:155 app/utils/forms.py:172
+msgid "Passwords must match!"
+msgstr ""
+
+#: app/utils/forms.py:167
+msgid "Old Password"
+msgstr ""
+
+#: app/utils/forms.py:168
+msgid "New Password"
+msgstr ""
+
+#: app/utils/forms.py:174 app/utils/forms.py:184 app/utils/forms.py:195 app/utils/forms.py:215 app/utils/forms.py:221
+msgid "Save"
+msgstr ""
+
+#: app/utils/forms.py:185
+msgid "Delete current"
+msgstr ""
+
+#: app/utils/forms.py:190
+msgid "Contact File:"
+msgstr ""
+
+#: app/utils/forms.py:192
+msgid "Contact file only! (csv)"
+msgstr ""
+
+#: app/utils/forms.py:204
+msgid "Field must contain only letters, numbers, or underscores."
+msgstr ""
+
+#: app/utils/forms.py:207
+msgid "More Info URL"
+msgstr ""
+
+#: app/utils/forms.py:208
+msgid "Email"
+msgstr ""
+
+#: app/utils/forms.py:210
+msgid "Language"
+msgstr ""
+
+#: app/utils/forms.py:211
+msgid "Show public timeline updates from any language"
+msgstr ""
+
+#: app/utils/forms.py:214
+msgid "Enable proxy"
+msgstr "Włącz serwer proxy"
+
+#: app/utils/forms.py:219
+msgid "Patch 1"
+msgstr "Łatka 1"
+
+#: app/utils/forms.py:220
+msgid "Custom CSS URL:"
+msgstr "Niestandardowy adres URL CSS:"
+
+#: app/utils/forms.py:225
+msgid "Username or Email"
+msgstr "Nazwa użytkownika lub e-mai"
+
+#: app/utils/forms.py:228
+msgid "Remember me"
+msgstr "Pamiętaj moje hasło"
+
+#: app/utils/forms.py:249
+msgid "Update"
+msgstr "Aktualizacja"
+
+#: app/utils/forms.py:265
+msgid "Send someone a message."
+msgstr "Wyślij komuś wiadomość."
+
+#: app/utils/forms.py:266
+msgid "Message must be less than 280 characters."
+msgstr "Wiadomość musi mieć mniej niż 280 znaków."
+
+#: app/utils/forms.py:276
+msgid "You cannot send a blank message!"
+msgstr "Nie możesz wysłać pustej wiadomości!"

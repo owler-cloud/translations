@@ -1,0 +1,1625 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-02-07 15:40-0300\n"
+"PO-Revision-Date: 2024-02-16 21:07+0800\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Source-Locale: en_GB\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
+
+#: app/routes/account/views.py:60 app/routes/account/views.py:263
+#: app/routes/ajax/views.py:74
+msgid "Whoa! That's too big, keep it shorter next time."
+msgstr "おっと！長すぎて次のを短くしてね。"
+
+#: app/routes/account/views.py:63 app/routes/account/views.py:218
+msgid "Message sent!"
+msgstr "メッセージ送信しました！"
+
+#: app/routes/account/views.py:109
+msgid "Accepted friend request"
+msgstr "フレンド申請は受け入られました"
+
+#: app/routes/account/views.py:112
+msgid "Denied friend request"
+msgstr "フレンド申請は拒否されました"
+
+#: app/routes/account/views.py:173
+msgid "Successfully confirmed your email."
+msgstr "メールの確認が完了しました。"
+
+#: app/routes/account/views.py:178
+msgid "Invalid verification code."
+msgstr "無効な認証コードです。"
+
+#: app/routes/account/views.py:187
+msgid "Your email has been verified."
+msgstr "メールが認証されました。"
+
+#: app/routes/account/views.py:191
+msgid ""
+"Confirmation was resent successfully. If you don't see it in your inbox in "
+"5 minutes, please check your spam folder"
+msgstr "確認メールは正常に再送されました。 5分経っても受信トレイに表示されません場合は、迷惑メールフォルダをご確認ください"
+
+#: app/routes/account/views.py:271
+msgid "Something went wrong!"
+msgstr "お困りました！"
+
+#: app/routes/account/views.py:293
+msgid "Invite sent!"
+msgstr "招待送信しました！"
+
+#: app/routes/account/views.py:308
+msgid "Thanks for proving you are a human!"
+msgstr "ボットでないことを証明してくれてありがとうございます！"
+
+#: app/routes/account/settings/views.py:41 app/routes/account/views.py:313
+#: app/routes/auth/views.py:26
+msgid "Invalid captcha!"
+msgstr "無効なキャプチャです！"
+
+#: app/routes/account/views.py:400
+#, python-format
+msgid "%(count)s people were added!"
+msgstr "%(count)s人は追加されました!"
+
+#: app/routes/account/views.py:401
+msgid "No people were found! But you can invite them clicking on \"Find & Invite\""
+msgstr "0人はいますけど、招待するほうがいい。"
+
+#: app/routes/account/views.py:404
+msgid "Invalid contact file."
+msgstr "無効な連絡先ファイル。"
+
+#: app/routes/account/settings/views.py:39
+msgid "Goodbye!"
+msgstr "バイバイ！"
+
+#: app/routes/account/settings/views.py:96 app/routes/auth/views.py:32
+msgid "Email or username is already used by another account."
+msgstr "このメールアドレスかユーザー名がすでに使用されています。"
+
+#: app/routes/account/settings/views.py:99 app/routes/account/settings/views.py:135
+msgid "Thanks, your settings have been saved."
+msgstr "設定保存しました。"
+
+#: app/routes/account/settings/views.py:150
+msgid "You didn't provide a picture."
+msgstr "画像を提供しません。"
+
+#: app/routes/account/settings/views.py:154
+msgid "Picture deleted."
+msgstr "画像削除しました。"
+
+#: app/routes/account/settings/views.py:169
+msgid "That's a nice picture!"
+msgstr "いい画像でしょう！"
+
+#: app/routes/account/settings/views.py:183 app/routes/auth/views.py:57
+msgid "Invalid password!"
+msgstr "無効なパスワードです！"
+
+#: app/routes/account/settings/views.py:192
+msgid "Changed password!"
+msgstr "パスワード変わりました！"
+
+#: app/routes/account/settings/views.py:208
+msgid "Done!"
+msgstr "完成！"
+
+#: app/routes/account/settings/views.py:227
+msgid "You picked a color so transparent, even Casper is jealous!"
+msgstr "選ばれた色は透明すぎて幽霊みたい！"
+
+#: app/routes/account/settings/views.py:227
+msgid "Changes saved successfully!"
+msgstr "変更保存しました！"
+
+#: app/routes/account/settings/templates/settings.html:40
+#: app/routes/account/settings/templates/settings.html:349
+msgid "Account"
+msgstr "アカウント"
+
+#: app/routes/account/settings/templates/settings.html:43
+#: app/routes/account/settings/templates/settings.html:365 app/utils/forms.py:227
+msgid "Password"
+msgstr "パスワード"
+
+#: app/routes/account/settings/templates/settings.html:46
+msgid "Devices"
+msgstr "デバイス"
+
+#: app/routes/account/settings/templates/settings.html:49 app/utils/forms.py:158
+#: app/utils/forms.py:179
+msgid "Picture"
+msgstr "アイコン"
+
+#: app/routes/account/settings/templates/settings.html:52
+#: app/routes/account/settings/templates/settings.html:393
+msgid "Design"
+msgstr "レイアウト"
+
+#: app/routes/account/settings/templates/settings.html:76
+msgid "Your URL:"
+msgstr "ウェブサイトのURL："
+
+#: app/routes/account/settings/templates/settings.html:77
+msgid "No spaces, please."
+msgstr "スペースはできません。"
+
+#: app/routes/account/settings/templates/settings.html:102
+msgid "Have a SpaceHey or blog? Put the address here."
+msgstr "SpaceHeyかブログがあれば、ここにURLをください。"
+
+#: app/routes/account/settings/templates/settings.html:113
+msgid "About yourself in fewer than 160 characters."
+msgstr "160以内で自己紹介。"
+
+#: app/routes/account/settings/templates/settings.html:122
+msgid "Where in the world are you?"
+msgstr "どこにいますか？"
+
+#: app/routes/account/settings/templates/settings.html:132
+msgid ""
+"Make sure you select the right language, otherwise your updates will be "
+"shown on the wrong timeline."
+msgstr "正しい言語を選択しないと、アップデートが違うタイムラインに表示されます。"
+
+#: app/routes/account/settings/templates/settings.html:141
+msgid ""
+"This allows you to see updates from everyone, independent if the update is "
+"in a different language than yours."
+msgstr "アップデートが選択の言語と異なっていても、全員からのアップデートを見る。"
+
+#: app/routes/account/settings/templates/settings.html:151
+#: app/routes/auth/templates/create.html:93
+msgid ""
+"Only let people whom I accept as friends read my updates. If this is "
+"checked, you WILL NOT be on the public timeline"
+msgstr "フレンドとして承認した人にだけアップデートを読ませる。 公開タイムラインに表示されません"
+
+#: app/routes/account/settings/templates/settings.html:160
+msgid ""
+"This proxies unsafe background image URLs and embeds so your IP address "
+"won't be leaked. If you have issues, you can disable this option."
+msgstr "安全でない背景画像のURLと埋め込みをプロキシするので、IPアドレスが漏れることはありません。 問題がある場合は、無効にすることができます。"
+
+#: app/routes/account/settings/templates/settings.html:172
+msgid "Delete your account."
+msgstr "アカウント削除。"
+
+#: app/routes/account/settings/templates/settings.html:230
+#: app/routes/auth/templates/create.html:82
+msgid "Minimum size 48x48 pixels (jpg, gif, png)"
+msgstr "最小サイズは48x48px (jpg、gif、png)"
+
+#: app/routes/account/settings/templates/settings.html:244
+msgid "Design Your Owler"
+msgstr "レイアウト編集"
+
+#: app/routes/account/settings/templates/settings.html:245
+msgid ""
+"Below are the current design settings for your Owler account. You can "
+"change, preview, save, or restore to factory default settings any time. If "
+"you prefer, you can leave stuff you don't want to change in blank."
+msgstr ""
+"下記はOwlerプロフィールの現在のレイアウト設定です。 いつでも変更、プレビュー、保存、工場出荷時のデフォルト設定に戻すことができます。 "
+"ご希望であれば、変更したくない項目を空白のままにしておく。"
+
+#: app/routes/account/settings/templates/settings.html:284
+msgid "Reset background"
+msgstr "背景リセット"
+
+#: app/routes/account/settings/templates/settings.html:303
+msgid "Connected devices"
+msgstr "接続デバイス"
+
+#: app/routes/account/settings/templates/settings.html:305
+msgid ""
+"Here you can access all external applications and devices connected to this "
+"account."
+msgstr "このアカウントに接続されているすべての外部アプリやデバイスです。"
+
+#: app/routes/account/settings/templates/settings.html:310
+msgid "Device"
+msgstr "デバイス"
+
+#: app/routes/account/settings/templates/settings.html:311
+msgid "Token"
+msgstr "トーケン"
+
+#: app/routes/account/settings/templates/settings.html:312
+msgid "Actions"
+msgstr "アクション"
+
+#: app/routes/account/settings/templates/settings.html:330
+msgid "No external applications or devices are connected to this account."
+msgstr "このアカウントには外部のアプリやデバイスは接続されていません。"
+
+#: app/routes/account/settings/templates/settings.html:352
+msgid ""
+"From here you can change your basic account info, fill in your profile "
+"data, and set whether you want to be private or public"
+msgstr "基本的なアカウント情報の変更、プロフィールデータの入力、非公開か公開かの設定ができます"
+
+#: app/routes/account/settings/templates/settings.html:354
+#: app/routes/account/settings/templates/settings.html:381
+msgid "Tips"
+msgstr "ヒント"
+
+#: app/routes/account/settings/templates/settings.html:356
+msgid ""
+"Filling in your profile information will help people find you on Owler. For "
+"example, you'll be more likely to turn up in an Owler search if you've "
+"added your location or your real name"
+msgstr ""
+"プロフィール情報を入力すると、Owlerであなたを見つけるのに役立ちます。 "
+"例えば、Owlerの検索で、所在地や本名を追加した場合、より検索されやすくなります"
+
+#: app/routes/account/settings/templates/settings.html:358
+msgid ""
+"Change your Owler username anytime without affecting your existing updates, "
+"@replies, direct messages, or other data. After changing it, make sure to "
+"let your followers know, so you'll continue receiving all of your messages "
+"with your new username."
+msgstr ""
+"既存のアップデート、リプライ、メッセージ、その他のデータに影響を与えることなく、いつでもOwlerユーザー名を変更できます。 "
+"変更後、新しいユーザー名ですべてのメッセージを受け取り続けるのためにフォロワーに知らせてください。"
+
+#: app/routes/account/settings/templates/settings.html:360
+msgid ""
+"Protect your profile to keep your Owler updates private. Approve who can "
+"follow you and keep your updates out of search results"
+msgstr "Owlerのアップデートを非公開にするのためにプロフィールを保護する。 フォローできる人を承認し、アップデートを検索結果から除外する"
+
+#: app/routes/account/settings/templates/settings.html:369
+msgid ""
+"Be tricky! Your password should be at least 6 characters and not a "
+"dictionary word or common name. Change your password on occasion."
+msgstr "ちゃんと選んでください！ パスワードは最低6文字で、辞書に載っているような単語や一般的な名前ではいけません。 パスワードは時々変更するほうもいい。"
+
+#: app/routes/account/settings/templates/settings.html:370
+msgid "Note:"
+msgstr "ご注意:"
+
+#: app/routes/account/settings/templates/settings.html:370
+msgid ""
+"If you have trusted a third-party Owler service or software with your "
+"password, and you change it here, you'll need to reauthenticate to make "
+"that software work. Never enter your password in a third-party service or "
+"software that looks suspicious."
+msgstr ""
+"第三者サービスやソフトウェアにパスワードを信頼していた場合、ここでパスワードを変更すると、そのソフトウェアを動作させるために再認証が必要になります。 "
+"不審に見える第三者のサービスやソフトウェアには、決してパスワードを入力してはいけません。"
+
+#: app/routes/account/settings/templates/settings.html:378
+msgid ""
+"Your Owler profile pic helps instantly identify you to those following you "
+"and tells those who aren't more about you."
+msgstr "Owlerのプロフィール写真は、フォロワーたちに即座にあなたを特定し、そうでない人たちにあなたのことをもっと知ってもらうのに役立ちます。"
+
+#: app/routes/account/settings/templates/settings.html:383
+msgid ""
+"A real picture of yourself is encouraged as it adds personableness to your "
+"updates."
+msgstr "アップデートに人間らしさを加えるため、自分の実際の写真を掲載することを推奨します。"
+
+#: app/routes/account/settings/templates/settings.html:384
+msgid ""
+"People can see the full-sized version when they click on your picture from "
+"your profile page. So don't upload a tiny one - we'll create the thumbnail "
+"for you."
+msgstr ""
+"プロフィールページからあなたの写真をクリックすると、フルサイズの画像を見ることができます。だから小さいのはいけません - "
+"サムネイルはOwlerが作成します。"
+
+#: app/routes/account/settings/templates/settings.html:386
+msgid ""
+"If you want to control exactly how it will be cropped, upload a square "
+"picture."
+msgstr "どのようにトリミングされるかを厳密にコントロールしたい場合は、正方形の写真をアップロードしてください。"
+
+#: app/routes/account/settings/templates/settings.html:387
+msgid ""
+"Nudity or obscene images are not allowed. Be sure you have permission to "
+"use the photo you're using (And don't use copyrighted images without proper "
+"authorization). Respect the rights of content creators and maintain a "
+"positive and respectful online environment."
+msgstr ""
+"ヌードやわいせつな画像は使用できません。 "
+"使用する写真の使用許可を得ていることを確認してください（または適切な許可なく著作権で保護された画像を使用しないでください）。 "
+"制作者の権利を尊重し、前向きで礼儀正しいSNS環境を維持する。"
+
+#: app/routes/account/settings/templates/settings.html:396
+msgid ""
+"Customize the way Owler looks for you and how your profile looks to others. "
+"Customize it with your own color scheme and background image."
+msgstr "Owlerの見え方とあなたのプロフィールの見え方をカスタマイズする。 自身の配色と背景画像にする。"
+
+#: app/routes/account/settings/templates/settings.html:400
+msgid ""
+"Owler has two themes: light and dark, so customize your design to look good "
+"in both."
+msgstr "Owlerにはライトとダークの2つのテーマがあるので、どちらでも映えるようにレイアウトをカスタマイズするほうがいい。"
+
+#: app/routes/account/settings/templates/settings.html:401
+msgid ""
+"You can see what your changes look like instantly, but they're not saved "
+"until you click \"Save Changes.\""
+msgstr "変更内容は即座に確認してるが、「変更保存 」をクリックするまで保存されません。"
+
+#: app/routes/account/settings/templates/settings.html:404
+msgid "If you want to start over, click \"Restore to default\""
+msgstr "最初からやり直したい場合は、「デフォルトに戻す 」をクリック。"
+
+#: app/routes/account/templates/badges.html:17
+msgid "Let the world know (on your homepage)!"
+msgstr "皆に知らせよう（ホームページで）！"
+
+#: app/routes/account/templates/badges.html:20
+#, python-format
+msgid ""
+"To use this feature, you need to make your profile public in account <a "
+"href=\"%(link)s\">settings</a>."
+msgstr "この機能を使用するには、アカウントの<a href=\"%(link)s\">設定</a>でプロフィールを公開にする。"
+
+#: app/routes/account/templates/badges.html:22
+msgid "Flash Badge"
+msgstr "FLASHのバッジ"
+
+#: app/routes/account/templates/badges.html:23
+msgid ""
+"Choose a color and paste the code into your MySpace, Blogger, LiveJournal, "
+"Xanga, whatever!"
+msgstr "色を選び、コードをMySpace、Blogger、LiveJournal、Xangaなどに貼り付ける！"
+
+#: app/routes/account/templates/badges.html:42
+msgid "JavaScript Badges"
+msgstr "JavaScriptのバッジ"
+
+#: app/routes/account/templates/badges.html:43
+msgid ""
+"Want something simpler? Want to style your status through CSS? Copy this "
+"JavaScript version instead:"
+msgstr "もっとシンプルのほうがお望みかCSSでスタイルしたいですか？ 代わりにこのJavaScriptバージョンをコピーしてください："
+
+#: app/routes/account/templates/direct_messages.html:17 app/utils/forms.py:72
+#: app/utils/forms.py:270
+msgid "Send"
+msgstr " "
+
+#: app/routes/account/templates/direct_messages.html:17
+msgid "a message."
+msgstr "さんへメッセージを送る。"
+
+#: app/routes/account/templates/direct_messages.html:20
+#: app/routes/account/templates/home.html:20
+msgid "Characters available: "
+msgstr "残り文学:"
+
+#: app/routes/account/templates/direct_messages.html:42
+msgid "Sent"
+msgstr "送信済み"
+
+#: app/routes/account/templates/direct_messages.html:45
+msgid "Inbox"
+msgstr "受信トレイ"
+
+#: app/routes/account/templates/direct_messages.html:50
+msgid "Messages Sent Directly To You"
+msgstr "あなたへ送信されたメッセージ"
+
+#: app/routes/account/templates/direct_messages.html:50
+msgid "Messages Sent Only To You"
+msgstr "あなたが送信しましたメッセージ"
+
+#: app/routes/account/templates/direct_messages.html:102
+#, python-format
+msgid "to %(screen_name)s"
+msgstr "%(screen_name)sさんへ"
+
+#: app/routes/account/templates/direct_messages.html:118
+#: app/routes/mobile/templates/mobile/timeline.html:19
+#: app/templates/widgets/timeline.html:54
+msgid "Newer"
+msgstr "新"
+
+#: app/routes/account/templates/direct_messages.html:124
+#: app/routes/account/templates/search_users.html:91
+#: app/routes/mobile/templates/mobile/timeline.html:22
+#: app/templates/widgets/timeline.html:60
+msgid "Older"
+msgstr "古"
+
+#: app/routes/account/templates/find_folks.html:18
+msgid "Find Folks from Your Gmail Address Book"
+msgstr "Gmailアドレス帳から友達を探す"
+
+#: app/routes/account/templates/find_folks.html:19
+msgid "Follow these instructions to add your friends from your Gmail address book."
+msgstr "以下の手順に従って、Gmailアドレス帳から友達を追加してください。"
+
+#: app/routes/account/templates/find_folks.html:21
+msgid "Sign in to your email."
+msgstr "メールにログイン。"
+
+#: app/routes/account/templates/find_folks.html:22
+msgid "Go to <b>Google Contacts</b>."
+msgstr "<b>Google Contacts</b>へ行く。"
+
+#: app/routes/account/templates/find_folks.html:23
+msgid "Select the contacts you want to export."
+msgstr "エクスポートしたい連絡先を選択する。"
+
+#: app/routes/account/templates/find_folks.html:24
+msgid "On the menu on the left, select <b>Export</b>."
+msgstr "左のメニューから<b>エクスポート(Export)</b>を選択する。"
+
+#: app/routes/account/templates/find_folks.html:25
+msgid "At the bottom of the popup, select <b>Export</b>."
+msgstr "ポップアップの下部で<b>エクスポート(Export)</b>を選択する。"
+
+#: app/routes/account/templates/find_folks.html:26
+msgid "Upload the contacts file below:"
+msgstr "連絡先ファイルを以下にアップロードする:"
+
+#: app/routes/account/templates/friend_requests.html:7
+msgid "Friend Requests"
+msgstr "フレンド申請"
+
+#: app/routes/account/templates/friend_requests.html:28
+msgid "accept"
+msgstr "受入"
+
+#: app/routes/account/templates/friend_requests.html:29
+msgid "deny"
+msgstr "拒否"
+
+#: app/routes/account/templates/friend_requests.html:38
+msgid "No friend requests found"
+msgstr "フレンド申請はありません"
+
+#: app/routes/account/templates/home.html:16
+#, python-format
+msgid "Replying to %(screen_name)s"
+msgstr "%(screen_name)sにリプライ"
+
+#: app/routes/account/templates/home.html:17
+#: app/routes/mobile/templates/mobile/home.html:7 app/utils/forms.py:240
+#: app/utils/forms.py:245
+msgid "What are you doing?"
+msgstr "いまどうしてる？"
+
+#: app/routes/account/templates/home.html:43
+msgid "Your account is being restricted"
+msgstr "アカウントは制限されます"
+
+#: app/routes/account/templates/home.html:48
+#, python-format
+msgid ""
+"Please confirm your account — a confirmation message was sent to "
+"%(email)s<br>\n"
+"    <small>Until you confirm, you will have limited access to certain "
+"features on Owler.<br>\n"
+"        <a href=\"%(resend_email_url)s\">Resend confirmation</a> - <a\n"
+"                href=\"%(settings_url)s\">Change email address</a></small>"
+msgstr ""
+"アカウントを確認してください - 確認メッセージが%(email)sに送信されました。<br>\n"
+"    <small>確認されるまで、特定の機能が制限されます。<br>\n"
+"       <a href=\"%(resend_email_url)s\">確認再送</a> - <a\n"
+"                href=\"%(settings_url)s\">メールアドレス変更</a></small>"
+
+#: app/routes/account/templates/home.html:56
+msgid "Archive"
+msgstr "以前の"
+
+#: app/routes/account/templates/home.html:59
+msgid "Replies"
+msgstr "リプライ"
+
+#: app/routes/account/templates/home.html:62
+#: app/routes/account/templates/home.html:65
+msgid "Recent"
+msgstr "現在の"
+
+#: app/routes/account/templates/home.html:62
+#: app/routes/profile/templates/profile.html:54
+#: app/routes/profile/templates/profile.html:195
+msgid "Following"
+msgstr "フォロー中"
+
+#: app/routes/account/templates/home.html:70
+msgid "Your Updates"
+msgstr "自分のアップデート"
+
+#: app/routes/account/templates/home.html:71
+msgid ""
+"Updates Replying To\n"
+"        You"
+msgstr "あなたにリプライ"
+
+#: app/routes/account/templates/home.html:73
+#, python-format
+msgid "What You And Your <a href=\"%(url)s\">Friends</a> Are Doing"
+msgstr "あなたと<a href=\"%(url)s\">フレンド達</a>のアップデート"
+
+#: app/routes/account/templates/home.html:74
+#, python-format
+msgid ""
+"What You And <a\n"
+"        href=\"%(url)s\">They</a> Are Doing"
+msgstr ""
+"あなた と<a\n"
+"        href=\"%(url)s\">みんな</a>のアップデート"
+
+#: app/routes/account/templates/invitations.html:8
+msgid "Find and Invite More People!"
+msgstr "もっと人を見つけて招待する！"
+
+#: app/routes/account/templates/invitations.html:9
+#, python-format
+msgid ""
+"Owler is better when other people are involved. <a href=\"%(url)s\">Check "
+"the\n"
+"        status of previous invitations.</a>"
+msgstr "Owlerは他に人と一緒でほうがもっといいんです 。<a href=\"%(url)s\">以前の招待状況を見る</a>"
+
+#: app/routes/account/templates/invitations.html:18
+msgid "<b>Find</b> Folks from Your Gmail Address Book"
+msgstr "<b>Gmailのアドレス帳</b>から友達を探す"
+
+#: app/routes/account/templates/invitations.html:27
+msgid "<b>Invite</b> People to Join Owler via Email"
+msgstr "<b>メールで</b>Owlerに友達を招待する"
+
+#: app/routes/account/templates/invitations.html:36
+msgid "<b>Search</b> for People Already on Owler"
+msgstr "Owlerにいる人を<b>検索する</b>"
+
+#: app/routes/account/templates/invitations.html:52
+#: app/routes/account/templates/search_users.html:20
+msgid "search"
+msgstr "検索"
+
+#: app/routes/account/templates/previous_invitations.html:3
+msgid "Owler"
+msgstr "Owler"
+
+#: app/routes/account/templates/previous_invitations.html:9
+msgid "Your Previous Invitations"
+msgstr "以前の招待"
+
+#: app/routes/account/templates/previous_invitations.html:10
+#, python-format
+msgid ""
+"No invitations found, but you can invite people <a "
+"href=\"%(url)s\">clicking here</a>"
+msgstr "招待がありませんけど、<a href=\"%(url)s\">ここ</a>で人を招待する"
+
+#: app/routes/account/templates/search_users.html:10
+#, python-format
+msgid "Results %(page)s - %(total_pages)s of %(total_users)s for \"%(keyword)s\""
+msgstr "%(total_users)s 人から\"%(keyword)s\"の%(page)s /%(total_pages)sページ"
+
+#: app/routes/account/templates/search_users.html:10
+msgid "Who are you looking for?"
+msgstr "誰を探しますか？"
+
+#: app/routes/account/templates/search_users.html:20
+msgid "Your search term is highlighted below."
+msgstr "検索言葉はハイライトされます。"
+
+#: app/routes/account/templates/search_users.html:20
+msgid "Examples: John, bob@test.com, San Francisco, user123."
+msgstr "例えば: John, bob@test.com, San Francisco, user123."
+
+#: app/routes/account/templates/search_users.html:54
+#: app/routes/profile/templates/profile.html:88
+msgid "Notifications"
+msgstr "通知"
+
+#: app/routes/account/templates/search_users.html:58
+#: app/routes/profile/templates/profile.html:94
+msgid "On"
+msgstr "オン"
+
+#: app/routes/account/templates/search_users.html:63
+#: app/routes/profile/templates/profile.html:99
+msgid "Off"
+msgstr "オフ"
+
+#: app/routes/account/templates/search_users.html:76
+msgid "Name"
+msgstr "名前"
+
+#: app/routes/account/templates/search_users.html:78 app/utils/forms.py:206
+msgid "Location"
+msgstr "場所"
+
+#: app/routes/account/templates/search_users.html:79 app/utils/forms.py:205
+msgid "Bio"
+msgstr "自己紹介"
+
+#: app/routes/account/templates/search_users.html:81
+msgid "Recently"
+msgstr "現在は"
+
+#: app/routes/account/templates/search_users.html:81
+#: app/routes/mobile/templates/mobile/profile.html:14
+#: app/routes/profile/templates/profile.html:115
+msgid "My updates are protected."
+msgstr "このユーザーのアップデートは保護されています。"
+
+#: app/routes/account/templates/search_users.html:81
+#: app/routes/mobile/templates/mobile/profile.html:14
+#: app/routes/profile/templates/profile.html:138
+msgid "Haven't updated yet!"
+msgstr "アップデートありません！"
+
+#: app/routes/account/templates/search_users.html:90
+#, python-format
+msgid "page %(page)s of %(total_pages)s"
+msgstr "%(total_pages)sから%(page)sページ"
+
+#: app/routes/account/templates/search_users.html:91
+msgid "Next"
+msgstr "次"
+
+#: app/routes/account/templates/send_message.html:8
+#, python-format
+msgid "Send <a href=\"%(url)s\">%(name)s</a> a message."
+msgstr "<a href=\"%(url)s\">%(name)s</a>さんにメッセージを送る。"
+
+#: app/routes/account/templates/widgets/welcome.html:9
+#, python-format
+msgid "Welcome to Owler, %(name)s!"
+msgstr "%(name)sさん、Owlerへようこそ！"
+
+#: app/routes/account/templates/widgets/welcome.html:14
+msgid "Tell us what <b>you're</b> doing in the box above"
+msgstr "いまどうしてるか教えてください"
+
+#: app/routes/account/templates/widgets/welcome.html:19
+#, python-format
+msgid ""
+"<a href='%(url)s'>Invite some friends</a> and follow what <b>they're</b> "
+"doing"
+msgstr "<a href='%(url)s'>友達を招待して</a>フォローする"
+
+#: app/routes/account/templates/widgets/welcome.html:24
+#, python-format
+msgid ""
+"<a href='%(url)s'>Turn on your mobile phone</a> to update your friends on "
+"the go"
+msgstr "<a href='%(url)s'>携帯で</a>アップデートする"
+
+#: app/routes/account/templates/widgets/side/user.html:2
+#, python-format
+msgid "Welcome, <a href='%(url)s'><strong>%(screen_name)s"
+msgstr "<a href='%(url)s'><strong>%(screen_name)s</strong>さん、ようこそ"
+
+#: app/routes/account/templates/widgets/side/user.html:5
+#, python-format
+msgid ""
+"Awesome new feature!<br>\n"
+"        <a href=\"%(url)s\">Search Gmail Contacts</a>\n"
+"        <br>and follow more folks.\n"
+"        </div>"
+msgstr ""
+"新機能！<br>\n"
+"        <a href=\"%(url)s\"> Gmailの連絡先</a>\n"
+"        <br>より友達を見つける！\n"
+"        </div>"
+
+#: app/routes/account/templates/widgets/side/user.html:13
+#, python-format
+msgid "<b>Currently:</b> <span id='about_text'>%(recently)s</span>"
+msgstr "<b>現在は:</b> <span id='about_text'>%(recently)s</span>"
+
+#: app/routes/account/templates/widgets/side/user.html:19
+#, python-format
+msgid "<a href='%(url)s'>Friend Requests:</a> %(count)s"
+msgstr "<a href='%(url)s'>フレンド申請:</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:25
+#, python-format
+msgid "<a href='%(url)s'>Following:</a> %(count)s"
+msgstr "<a href='%(url)s'>フォロー中:</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:28
+#, python-format
+msgid "<a href='%(url)s'>Followers:</a> %(count)s"
+msgstr "<a href='%(url)s'>フォロワー:</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:32
+#, python-format
+msgid "<a href='%(url)s'>Favorites:</a> %(count)s"
+msgstr "<a href='%(url)s'>お気に入り:</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:37
+#, python-format
+msgid "<a href='%(url)s'>Direct Messages:</a> %(count)s"
+msgstr "<a href='%(url)s'>メッセージ:</a> %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:41
+#, python-format
+msgid "Updates: %(count)s"
+msgstr "アップデート:  %(count)s"
+
+#: app/routes/account/templates/widgets/side/user.html:47
+msgid "Take Owler with you! Set up your phone or IM!"
+msgstr "外にOwlerを使おう、携帯かIMで！"
+
+#: app/routes/account/templates/widgets/side/user.html:68 app/utils/forms.py:81
+#: app/utils/forms.py:82
+msgid "Search"
+msgstr "検索する"
+
+#: app/routes/ajax/views.py:67 app/utils/forms.py:257
+msgid "You cannot send a blank update!"
+msgstr "空白のアップデートを送信することはできません！"
+
+#: app/routes/ajax/views.py:71 app/utils/forms.py:241 app/utils/forms.py:246
+msgid "Status must be less than 280 characters."
+msgstr "280文字以上はできません。"
+
+#: app/routes/auth/views.py:34
+msgid "Please sign in!"
+msgstr "ログインしてください！"
+
+#: app/routes/auth/views.py:53
+msgid "User not found!"
+msgstr "ユーザーはいません！"
+
+#: app/routes/auth/views.py:68
+msgid "If you need to reset your password, contact support."
+msgstr "パスワードのリセットが必要な場合、サポートにご連絡ください。"
+
+#: app/routes/auth/views.py:82
+msgid "IM is not available yet!"
+msgstr "IMはまだありません！"
+
+#: app/routes/auth/templates/complete.html:5
+msgid "So you want to use Owler on the web…"
+msgstr "ウェブでOwlerを使いたいと…、"
+
+#: app/routes/auth/templates/complete.html:6
+msgid "Give us the IM account you’ve been using to Owler below."
+msgstr "Owlerに使えられているIMアカウントをください。"
+
+#: app/routes/auth/templates/create.html:15
+msgid "Create a Free Owler Account"
+msgstr "無料でアカウント作る"
+
+#: app/routes/auth/templates/create.html:16
+#, python-format
+msgid ""
+"Already use Owler on your phone? <a href=\"%(url)s\">Head over here</a> and "
+"we’ll get you signed up on the web."
+msgstr "携帯ですでにOwlerを使ったら<a href=\"%(url)s\">ここ</a>からウェブでログインします。"
+
+#: app/routes/auth/templates/create.html:38
+msgid "For signing in to Owler (no spaces allowed!)"
+msgstr "ログイン用（スペースありません）"
+
+#: app/routes/auth/templates/create.html:47
+msgid "Six characters or more (be tricky!)"
+msgstr "6文字以上（ちゃんと選んでください）"
+
+#: app/routes/auth/templates/create.html:64
+msgid "In case you forget your password! Choose a valid real email"
+msgstr "パスワードを忘れる"
+
+#: app/routes/auth/templates/create.html:113
+msgid ""
+"By joining Owler, you confirm that you are 13 years of age or older and "
+"accept the"
+msgstr "Owlerに参加することで、13歳以上であることを確認し、利用規約に同意するものとします。"
+
+#: app/routes/auth/templates/create.html:114 app/templates/base.html:76
+msgid "Terms of Service"
+msgstr "利用規約"
+
+#: app/routes/auth/templates/forgot.html:5 app/routes/auth/templates/login.html:43
+#: app/templates/widgets/side/sign_in.html:17
+msgid "Forgot?"
+msgstr "忘れる？"
+
+#: app/routes/auth/templates/forgot.html:6
+msgid "Put in your email address below and we’ll send a confirmation link to you."
+msgstr "確認リンクを受けるのためにメールアドレスを入力してください。"
+
+#: app/routes/auth/templates/login.html:14
+msgid "Sign in to Owler"
+msgstr "Owlerでログイン"
+
+#: app/routes/auth/templates/login.html:16
+#, python-format
+msgid ""
+"If you’ve been using Owler from your phone, <a href=\"%(url)s\">click "
+"here</a> and we’ll get you signed up on the web."
+msgstr "携帯でOwlerを使ったら<a href=\"%(url)s\">ここ</a>でログインします。"
+
+#: app/routes/dynamic/views.py:73
+msgid "Currently unavailable. Send a email to help@owler.cloud if you need help."
+msgstr "現在ご利用いただけません。 お困りの方はhelp@owler.cloudまでメールをください。"
+
+#: app/routes/dynamic/templates/help.html:5
+#: app/routes/dynamic/templates/index.html:7
+#: app/routes/dynamic/templates/index.html:10
+msgid ""
+"A global community of friends and strangers answering one simple question: "
+"What are you doing? Answer right here on the web!"
+msgstr "友人と他人たちの世界的なコミュニティーです。目標は、一つの質問を答えること:『いまどうしてる？』　ここで答えましょう！"
+
+#: app/routes/dynamic/templates/help.html:11
+msgid "Owler, help!"
+msgstr "Owlerヘルプ！"
+
+#: app/routes/dynamic/templates/help.html:13
+msgid ""
+"Found something we’ve overlooked? Use the form below and we’ll get back to "
+"you shortly."
+msgstr "問題があればここに教えてください。"
+
+#: app/routes/dynamic/templates/help.html:21
+msgid "Type"
+msgstr "種類"
+
+#: app/routes/dynamic/templates/help.html:24
+msgid "which happened"
+msgstr "起こった時刻"
+
+#: app/routes/dynamic/templates/help.html:35
+msgid "required"
+msgstr "必須"
+
+#: app/routes/dynamic/templates/help.html:73
+msgid "Owler from your phone!"
+msgstr "携帯でOwler！"
+
+#: app/routes/dynamic/templates/help.html:74
+msgid ""
+"Owler is great on the go. Update your followers by sending your updates to "
+"one of the following:"
+msgstr "Owlerは外出時にもいいでしょう！以下のいずれかにアップデートを送信してください："
+
+#: app/routes/dynamic/templates/help.html:80
+msgid "<strong>off</strong> turns phone updates off"
+msgstr "<strong>オフ</strong>は電話のアップデートをオフにする"
+
+#: app/routes/dynamic/templates/help.html:81
+msgid "<strong>on</strong> turns phone updates back on"
+msgstr "<strong>オン</strong>は電話のアップデートをオンに戻す"
+
+#: app/routes/dynamic/templates/help.html:82
+msgid "<strong>follow redux</strong> follow redux’s updates on your phone"
+msgstr "<strong>reduxさんをフォロー</strong> 携帯でreduxさんのアップデートを見る"
+
+#: app/routes/dynamic/templates/help.html:83
+msgid "<strong>off redux</strong> turn redux’s updates off"
+msgstr "<strong>オフredux</strong> reduxさんのアップデートをオフにする"
+
+#: app/routes/dynamic/templates/help.html:84
+msgid "<strong>get redux</strong> get redux’s last update"
+msgstr "<strong>ゲットredux</strong> reduxさんの最終アップデートを取得する"
+
+#: app/routes/dynamic/templates/index.html:5
+#: app/routes/dynamic/templates/index.html:11
+msgid "Owler: What are you doing?"
+msgstr "Owler: いまどうしてる？"
+
+#: app/routes/dynamic/templates/index.html:16
+msgid ""
+"A global community of friends and strangers answering one simple question: "
+"<em>What are you doing?</em>\n"
+"Answer on your phone, IM, or right here on the web!"
+msgstr ""
+"友人と他人たちの世界的なコミュニティーです。目標は、一つの質問を答えること:<em>『いまどうしてる？』</em>\n"
+"携帯で、IMで、ここで答えましょう！"
+
+#: app/routes/dynamic/templates/index.html:18
+#, python-format
+msgid "Look at what <a href=\"%(url)s\"> these people are doing right now...</a>"
+msgstr "<a href=\"%(url)s\">みんな</a>はいまどうしてるか見る…、"
+
+#: app/routes/dynamic/templates/public_timeline.html:14
+#: app/routes/mobile/templates/mobile/home.html:17
+msgid "Recent Public Updates"
+msgstr "現在のアップデート"
+
+#: app/routes/dynamic/templates/public_timeline.html:21
+#: app/routes/mobile/templates/mobile/base.html:25
+msgid "Public Timeline"
+msgstr "公開タイムライン"
+
+#: app/routes/dynamic/templates/statuses.html:30
+#: app/templates/widgets/timeline.html:37
+#, python-format
+msgid "from %(source)s"
+msgstr "%(source)sより"
+
+#: app/routes/mobile/templates/mobile/base.html:21
+#: app/templates/widgets/user_navigation.html:4
+msgid "Home"
+msgstr "ホームページ"
+
+#: app/routes/mobile/templates/mobile/base.html:23
+msgid "Your Profile"
+msgstr "プロファイル"
+
+#: app/routes/mobile/templates/mobile/base.html:24
+msgid "People You Follow"
+msgstr "フォロー中"
+
+#: app/routes/mobile/templates/mobile/base.html:28
+#: app/templates/widgets/user_navigation.html:30
+msgid "Sign out"
+msgstr "ログアウト"
+
+#: app/routes/mobile/templates/mobile/follows.html:5
+#, python-format
+msgid "%(name)s's Friends"
+msgstr "%(name)sのフレンド"
+
+#: app/routes/mobile/templates/mobile/follows.html:7
+#: app/routes/profile/templates/profile.html:24
+#, python-format
+msgid "%(name)s's Followers"
+msgstr "%(name)sのフォロワー"
+
+#: app/routes/mobile/templates/mobile/forms.html:3 app/utils/forms.py:229
+msgid "Sign In"
+msgstr "ログイン"
+
+#: app/routes/mobile/templates/mobile/forms.html:13
+#, python-format
+msgid ""
+"Owler is a global community of friends and strangers answering one simple "
+"question: <b>What are you doing?</b>\n"
+"        Answer on your phone, or right here on the web! Register for an "
+"account from your computer at <a\n"
+"        href=\"%(url)s\">%(url)s</a>."
+msgstr ""
+"Owlerとは友人と他人たちの世界的なコミュニティーです。目標は、一つの質問を答えること:\n"
+"<em>『いまどうしてる？』</em>\n"
+"             携帯か、ここで答えましょう！<a href=\"%(url)s\">%(url)s</a>でアカウント登録。"
+
+#: app/routes/mobile/templates/mobile/home.html:13
+msgid "you + friends"
+msgstr "あなた+フレンド達"
+
+#: app/routes/mobile/templates/mobile/home.html:15
+msgid "Updates Replying To You"
+msgstr "あなたにリプライ"
+
+#: app/routes/mobile/templates/mobile/profile.html:36
+#, python-format
+msgid "About %(screen_name)s"
+msgstr "%(screen_name)sについて"
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#, python-format
+msgid "%(count)s Friends"
+msgstr "%(count)sフレンド"
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#: app/routes/profile/templates/widgets/side/profile.html:14
+#, python-format
+msgid "%(count)s Followers"
+msgstr "%(count)sフォロワー"
+
+#: app/routes/mobile/templates/mobile/profile.html:39
+#: app/routes/profile/templates/widgets/side/profile.html:12
+#, python-format
+msgid "%(count)s Favorites"
+msgstr "%(count)sお気に入り"
+
+#: app/routes/profile/templates/profile.html:22
+msgid "Your Following"
+msgstr "フォローする"
+
+#: app/routes/profile/templates/profile.html:22
+#, python-format
+msgid "%(name)s's Following"
+msgstr "%(name)sはフォローする"
+
+#: app/routes/profile/templates/profile.html:24
+msgid "Your Followers"
+msgstr "フォロワー"
+
+#: app/routes/profile/templates/profile.html:26
+msgid "My Favorites"
+msgstr "お気に入り"
+
+#: app/routes/profile/templates/profile.html:26
+msgid "Star your favorite Owler updates and they'll be saved for you here!"
+msgstr "お気に入りのアップデートの星ボタンをクリックと、ここに追加する！"
+
+#: app/routes/profile/templates/profile.html:26
+#, python-format
+msgid "%(name)s's Favorites"
+msgstr "%(name)sのお気に入り"
+
+#: app/routes/profile/templates/profile.html:45
+msgid "is a friend you're <u>following</u>"
+msgstr "さんはあなたにフォローされる"
+
+#: app/routes/profile/templates/profile.html:56
+#: app/routes/profile/templates/profile.html:197
+msgid "Notifications on"
+msgstr "通知有効"
+
+#: app/routes/profile/templates/profile.html:58
+#: app/routes/profile/templates/profile.html:199
+msgid "Notifications off"
+msgstr "通知無効"
+
+#: app/routes/profile/templates/profile.html:75
+#, python-format
+msgid "You follow %(screen_name)s"
+msgstr "%(screen_name)sさんをフォローする"
+
+#: app/routes/profile/templates/profile.html:77
+msgid "remove"
+msgstr "削除"
+
+#: app/routes/profile/templates/profile.html:82
+#, python-format
+msgid "%(screen_name)s's updates show in your <a href='%(url)s'>timeline</a>."
+msgstr "%(screen_name)sさんのアップデートはタイムラインに<a href='%(url)s'>表示されます</a>。"
+
+#: app/routes/profile/templates/profile.html:101
+#, python-format
+msgid "You will receive %(screen_name)s's updates via IM."
+msgstr "%(screen_name)sさんのアップデートはIMで受け取ります。"
+
+#: app/routes/profile/templates/profile.html:146
+msgid "With Friends"
+msgstr "フレンド達と"
+
+#: app/routes/profile/templates/profile.html:152
+msgid "Previous"
+msgstr "前"
+
+#: app/routes/profile/templates/profile.html:202
+msgid "Invitation sent"
+msgstr "招待送信しました"
+
+#: app/routes/profile/templates/widgets/side/profile.html:2
+#, python-format
+msgid "About <strong>%(screen_name)s"
+msgstr "<strong>%(screen_name)s"
+
+#: app/routes/profile/templates/widgets/side/profile.html:5
+#, python-format
+msgid "Name: %(name)s"
+msgstr "名前: %(name)s"
+
+#: app/routes/profile/templates/widgets/side/profile.html:6
+#, python-format
+msgid "Bio: <olb>%(bio)s</olb>"
+msgstr "自己紹介: <olb>%(bio)s</olb>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:7
+#, python-format
+msgid "Location: <olb>%(location)s</olb>"
+msgstr "場所: <olb>%(location)s</olb>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:8
+#, python-format
+msgid "Web: <a href=\"%(website)s\">%(website)s</a>"
+msgstr "ウェブサイト: <a href=\"%(website)s\">%(website)s</a>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:9
+#, python-format
+msgid "Joined: %(time)s</a>"
+msgstr "%(time)sからOwlerを利用しています</a>"
+
+#: app/routes/profile/templates/widgets/side/profile.html:13
+#, python-format
+msgid "%(count)s Following"
+msgstr "%(count)sフォロー中"
+
+#: app/routes/profile/templates/widgets/side/profile.html:15
+#, python-format
+msgid "%(count)s Updates"
+msgstr "%(count)sアップデート"
+
+#: app/templates/base.html:31
+msgid ""
+"On a mobile phone? Check out <a href=\"//m.owler.cloud\" "
+"accesskey=\"2\">m.owler.cloud</a>!"
+msgstr "携帯サイトは<a href=\"//m.owler.cloud\" accesskey=\"2\">ここ</a>です!"
+
+#: app/templates/base.html:34
+msgid "Skip to navigation"
+msgstr "ナヴィへ"
+
+#: app/templates/base.html:37
+msgid "Skip to sidebar"
+msgstr "サイドバーへ"
+
+#: app/templates/base.html:57
+msgid "Footer"
+msgstr "フッター"
+
+#: app/templates/base.html:61
+msgid "About Us"
+msgstr "Owlerとは"
+
+#: app/templates/base.html:64
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: app/templates/base.html:67
+msgid "Blog"
+msgstr "ブログ"
+
+#: app/templates/base.html:70
+msgid "API"
+msgstr "API"
+
+#: app/templates/base.html:73 app/templates/widgets/user_navigation.html:27
+msgid "Help"
+msgstr "ヘルプ"
+
+#: app/templates/base.html:79
+msgid "Privacy"
+msgstr "プラポリ"
+
+#: app/templates/widgets/errors.html:4
+msgid "Oops! Please fix the following problems:"
+msgstr "おっと！こちらの問題を："
+
+#: app/templates/widgets/timeline.html:38
+#, python-format
+msgid "in reply to %(screen_name)s"
+msgstr "%(screen_name)sにリプライ"
+
+#: app/templates/widgets/user_navigation.html:2
+msgid "Navigation"
+msgstr "ナヴィ"
+
+#: app/templates/widgets/user_navigation.html:6
+msgid "Your profile"
+msgstr "プロファイル"
+
+#: app/templates/widgets/user_navigation.html:9
+msgid "Find & Invite"
+msgstr "友達を招待"
+
+#: app/templates/widgets/user_navigation.html:12
+msgid "Public timeline"
+msgstr "公開タイムライン"
+
+#: app/templates/widgets/user_navigation.html:16
+msgid "Badges"
+msgstr "バッジ"
+
+#: app/templates/widgets/user_navigation.html:20
+msgid "Explore"
+msgstr "探検"
+
+#: app/templates/widgets/user_navigation.html:24
+msgid "Settings"
+msgstr "設定"
+
+#: app/templates/widgets/side/actions.html:3
+msgid "actions"
+msgstr "アクション"
+
+#: app/templates/widgets/side/actions.html:6
+msgid "message"
+msgstr "メッセージ"
+
+#: app/templates/widgets/side/notify.html:1
+msgid "Want an account?"
+msgstr "アカウントを作る？"
+
+#: app/templates/widgets/side/notify.html:2
+msgid "Join for Free!"
+msgstr "無料で入る！"
+
+#: app/templates/widgets/side/notify.html:5
+msgid "Have an account?"
+msgstr "アカウントある？"
+
+#: app/templates/widgets/side/notify.html:5
+msgid "Sign in!"
+msgstr "ログイン！"
+
+#: app/templates/widgets/side/notify.html:7
+msgid "It's fast and easy!"
+msgstr "速く簡単です！"
+
+#: app/templates/widgets/side/sign_in.html:2
+msgid "Already a Member?"
+msgstr "すでに入る？"
+
+#: app/templates/widgets/side/sign_in.html:2
+msgid "Please Sign In!"
+msgstr "ログインしてください！"
+
+#: app/utils/const.py:67 app/utils/const.py:81 app/utils/const.py:89
+#: app/utils/const.py:95
+msgid "none"
+msgstr "無"
+
+#: app/utils/const.py:68
+msgid "top left"
+msgstr "左上"
+
+#: app/utils/const.py:69
+msgid "center left"
+msgstr "中央左"
+
+#: app/utils/const.py:70
+msgid "bottom left"
+msgstr "左下"
+
+#: app/utils/const.py:71
+msgid "top center"
+msgstr "中央上"
+
+#: app/utils/const.py:72
+msgid "center center"
+msgstr "中央"
+
+#: app/utils/const.py:73
+msgid "bottom center"
+msgstr "中央下"
+
+#: app/utils/const.py:74
+msgid "top right"
+msgstr "右上"
+
+#: app/utils/const.py:75
+msgid "center right"
+msgstr "中央右"
+
+#: app/utils/const.py:76
+msgid "bottom right"
+msgstr "右下"
+
+#: app/utils/const.py:82
+msgid "no repeat"
+msgstr "リピートなし"
+
+#: app/utils/const.py:83
+msgid "repeat x"
+msgstr "リピートY"
+
+#: app/utils/const.py:84
+msgid "repeat y"
+msgstr "リピートX"
+
+#: app/utils/const.py:85
+msgid "repeat"
+msgstr "リピート"
+
+#: app/utils/const.py:90
+msgid "fixed"
+msgstr "固定"
+
+#: app/utils/const.py:91
+msgid "scroll"
+msgstr "スクロール"
+
+#: app/utils/const.py:96
+msgid "cover"
+msgstr "カバー"
+
+#: app/utils/const.py:97
+msgid "contain"
+msgstr "フィット"
+
+#: app/utils/const.py:99
+msgid "auto"
+msgstr "オート"
+
+#: app/utils/filters.py:68
+msgid "less than 5 seconds ago"
+msgstr "5秒以内"
+
+#: app/utils/filters.py:70
+msgid "half a minute ago"
+msgstr "30秒"
+
+#: app/utils/filters.py:72
+msgid "less than a minute ago"
+msgstr "1分"
+
+#: app/utils/filters.py:75
+#, python-format
+msgid "%(count)s minutes ago"
+msgstr "%(count)s分"
+
+#: app/utils/filters.py:75
+#, python-format
+msgid "%(count)s minute ago"
+msgstr "%(count)s分"
+
+#: app/utils/filters.py:79
+#, python-format
+msgid "%(count)s hours ago"
+msgstr "%(count)s時間"
+
+#: app/utils/filters.py:79
+#, python-format
+msgid "%(count)s hour ago"
+msgstr "%(count)s時間"
+
+#: app/utils/forms.py:18
+msgid "Images only! (jpg, jpeg, png, gif)"
+msgstr "画像だけください！(jpeg、jpeg、png、gif)"
+
+#: app/utils/forms.py:19
+msgid "Password is too short (minimum is 6 characters)"
+msgstr "パスワード短くすぎます。6文学以上ください。"
+
+#: app/utils/forms.py:41
+msgid "Save!"
+msgstr "保存！"
+
+#: app/utils/forms.py:60
+#, python-format
+msgid "Invalid email address: %(email)s"
+msgstr "無効なメールアドレス: %(email)s"
+
+#: app/utils/forms.py:64
+msgid "Email Addresses"
+msgstr "メールアドレス"
+
+#: app/utils/forms.py:65
+msgid "Invite LiveJornal Friends?"
+msgstr "LiveJournalの友達を招待？"
+
+#: app/utils/forms.py:66
+msgid "An extra note?"
+msgstr "追記は？"
+
+#: app/utils/forms.py:67
+msgid "Invite"
+msgstr "招待"
+
+#: app/utils/forms.py:71
+msgid "Email:"
+msgstr "メールアドレス:"
+
+#: app/utils/forms.py:76
+msgid "IM account:"
+msgstr "IMアカウント:"
+
+#: app/utils/forms.py:77 app/utils/forms.py:163
+msgid "Continue"
+msgstr "続く"
+
+#: app/utils/forms.py:81
+msgid "Find folks!"
+msgstr "友達を探す！"
+
+#: app/utils/forms.py:89
+msgid "Default"
+msgstr "デフォルト"
+
+#: app/utils/forms.py:90
+msgid "Classic (2007)"
+msgstr "クラシック（2007年）"
+
+#: app/utils/forms.py:91
+msgid "Night"
+msgstr "ナイト"
+
+#: app/utils/forms.py:92
+msgid "Christmas"
+msgstr "クリスマス"
+
+#: app/utils/forms.py:95
+msgid "Custom CSS (URL)"
+msgstr "カスタムCSSのURL"
+
+#: app/utils/forms.py:95
+msgid "Invalid URL."
+msgstr "無効なURLです。"
+
+#: app/utils/forms.py:96 app/utils/forms.py:116
+msgid "Save Changes"
+msgstr "変更保存"
+
+#: app/utils/forms.py:105
+msgid "Screen Name Color"
+msgstr "ユーザー名の色"
+
+#: app/utils/forms.py:106
+msgid "Text Color"
+msgstr "文字色"
+
+#: app/utils/forms.py:107
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: app/utils/forms.py:108
+msgid "Sidebar Border Color"
+msgstr "サイドバーのボーダー色"
+
+#: app/utils/forms.py:109
+msgid "Sidebar Color"
+msgstr "サイドバーの色"
+
+#: app/utils/forms.py:110
+msgid "Background Color"
+msgstr "背景色"
+
+#: app/utils/forms.py:111
+msgid "Background Image (URL)"
+msgstr "背景画像URL"
+
+#: app/utils/forms.py:112
+msgid "Background Position"
+msgstr "背景画像位置"
+
+#: app/utils/forms.py:113
+msgid "Background Repeat"
+msgstr "背景画像リピート"
+
+#: app/utils/forms.py:114
+msgid "Background Attachment"
+msgstr "背景画像固定方"
+
+#: app/utils/forms.py:115
+msgid "Background Size"
+msgstr "背景画像サイズ"
+
+#: app/utils/forms.py:117
+msgid "Restore to default"
+msgstr "デフォルトに戻す"
+
+#: app/utils/forms.py:122
+msgid "This username is not allowed."
+msgstr "このユーザー名はできません。"
+
+#: app/utils/forms.py:127
+msgid ""
+"This email domain is blacklisted for violating Terms of Service, if you "
+"think this is an error, contact support."
+msgstr "このメールドメインは利用規約違反のためブラックリストに登録されています。エラーと思われる場合は、サポートまでご連絡ください。"
+
+#: app/utils/forms.py:132 app/utils/forms.py:199
+msgid "Full Name"
+msgstr "名前"
+
+#: app/utils/forms.py:135
+msgid "Name is too long (maximum is 50 characters)"
+msgstr "長すぎます。50以内でください。"
+
+#: app/utils/forms.py:138 app/utils/forms.py:201 app/utils/forms.py:226
+msgid "Username"
+msgstr "ユーザー名"
+
+#: app/utils/forms.py:140
+msgid "Username is too long (maximum is 30 characters)"
+msgstr "長すぎます。30以内でください。"
+
+#: app/utils/forms.py:141
+msgid "Username must contain only letters, numbers, or underscores."
+msgstr "ユーザー名にはアルファベット、数字、アンダースコアのみを使用してください。"
+
+#: app/utils/forms.py:143
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: app/utils/forms.py:144 app/utils/forms.py:209
+msgid "Invalid email address."
+msgstr "無効なメールアドレスです。"
+
+#: app/utils/forms.py:145 app/utils/forms.py:212
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+#: app/utils/forms.py:146 app/utils/forms.py:213
+msgid "Protect my updates"
+msgstr "アップデートを保護する"
+
+#: app/utils/forms.py:147
+msgid "Create Password"
+msgstr "パスワード作成"
+
+#: app/utils/forms.py:152 app/utils/forms.py:169
+msgid "Retype Password"
+msgstr "パスワード再入力"
+
+#: app/utils/forms.py:155 app/utils/forms.py:172
+msgid "Passwords must match!"
+msgstr "パスワードは一致しなければなりません！"
+
+#: app/utils/forms.py:167
+msgid "Old Password"
+msgstr "古いパスワード"
+
+#: app/utils/forms.py:168
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: app/utils/forms.py:174 app/utils/forms.py:184 app/utils/forms.py:195
+#: app/utils/forms.py:215 app/utils/forms.py:221
+msgid "Save"
+msgstr "保存"
+
+#: app/utils/forms.py:185
+msgid "Delete current"
+msgstr "現在の削除"
+
+#: app/utils/forms.py:190
+msgid "Contact File:"
+msgstr "連絡先ファイル:"
+
+#: app/utils/forms.py:192
+msgid "Contact file only! (csv)"
+msgstr "連絡先ファイルだけください！(csv)"
+
+#: app/utils/forms.py:204
+msgid "Field must contain only letters, numbers, or underscores."
+msgstr "アルファベット、数字、アンダースコアのみを含める。"
+
+#: app/utils/forms.py:207
+msgid "More Info URL"
+msgstr "詳細URL"
+
+#: app/utils/forms.py:208
+msgid "Email"
+msgstr "メールアドレス"
+
+#: app/utils/forms.py:210
+msgid "Language"
+msgstr "言語"
+
+#: app/utils/forms.py:211
+msgid "Show public timeline updates from any language"
+msgstr "どの言語からでも公開タイムラインのアップデートを表示する"
+
+#: app/utils/forms.py:214
+msgid "Enable proxy"
+msgstr "プロキシ有効"
+
+#: app/utils/forms.py:219
+msgid "Patch 1"
+msgstr ""
+
+#: app/utils/forms.py:220
+msgid "Custom CSS URL:"
+msgstr "カスタマイズCSSのURL:"
+
+#: app/utils/forms.py:225
+msgid "Username or Email"
+msgstr "ユーザー名/メール"
+
+#: app/utils/forms.py:228
+msgid "Remember me"
+msgstr "ログイン記憶"
+
+#: app/utils/forms.py:249
+msgid "Update"
+msgstr "アップデートする"
+
+#: app/utils/forms.py:265
+msgid "Send someone a message."
+msgstr "メッセージを送信する。"
+
+#: app/utils/forms.py:266
+msgid "Message must be less than 280 characters."
+msgstr "280文学以上はできません。"
+
+#: app/utils/forms.py:276
+msgid "You cannot send a blank message!"
+msgstr "空白のメッセージを送信することはできません！"
